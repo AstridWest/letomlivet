@@ -6,13 +6,25 @@ const Navigation = () => {
 
     const style = css`
 
+        display:flex;
+        justify-content: space-between;
+        align-items: end;
+
         & div {
-            max-width: 7em;
+            max-width: 9em;
+        }
+
+        & ul {
+
+            display: flex;
+
+            & li {
+                    list-style-type: none;
+                    padding-right: 2em;
+                } 
         }
     
-        & li {
-                list-style-type: none;
-            }
+        
 
 `
 
@@ -25,6 +37,9 @@ const Navigation = () => {
             
             <ul>
                 <Link to="/"><li>Forside</li></Link>
+                <Link to="/"><li>Noget</li></Link>
+                <Link to="/"><li>Noget</li></Link>
+                <Link to="/"><li>Noget</li></Link>
             </ul>
         </nav>
      );

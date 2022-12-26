@@ -14,3 +14,7 @@ a {
   color: black;
 }
 
+a:hover {
+  color: #95c11f;
+}
+
