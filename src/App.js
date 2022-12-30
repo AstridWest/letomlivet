@@ -13,9 +13,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/coaching" element={<Coaching />} />
-          <Route path="/Fysioterapi" element={<Fysioterapi />} />
-          <Route path="/Træning" element={<Træning />} />
-          <Route path="/Vægttab" element={<Vægttab />} />
+          <Route path="/fysioterapi" element={<Fysioterapi />} />
+          <Route path="/træning" element={<Træning />} />
+          <Route path="/vægttab" element={<Vægttab />} />
         </Routes>
     </div>
   );

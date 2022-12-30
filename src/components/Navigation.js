@@ -22,10 +22,10 @@ const Navigation = () => {
                     list-style-type: none;
                     padding-right: 2em;
                 } 
+            & li:hover{
+                color: #95c11f;
+            }
         }
-    
-        
-
 `
 
     return ( 
@@ -37,10 +37,10 @@ const Navigation = () => {
             
             <ul>
                 <Link to="/"><li>Forside</li></Link>
-                <Link to="/Træning"><li>Personlig træning</li></Link>
+                <Link to="/træning"><li>Personlig træning</li></Link>
                 <Link to="/coaching"><li>Kostvejledning og coaching</li></Link>
-                <Link to="/Fysioterapi"><li>Fysioterapi</li></Link>
-                <Link to="/Vægttab"><li>Medicinsk vægtab</li></Link>
+                <Link to="/fysioterapi"><li>Fysioterapi</li></Link>
+                <Link to="/vægttab"><li>Medicinsk vægtab</li></Link>
             </ul>
         </nav>
      );

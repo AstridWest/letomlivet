@@ -9,12 +9,17 @@ const Button = () => {
         border-radius: 3px;
         color: white;
         padding:0.2em 3em;
+
+        & p:hover{
+            color:black;
+        }
     `
 
     return ( 
-        <button css={style}>
-            <p>mere info</p>
-        </button>
+        
+            <button css={style}>
+                <p>Mere info</p>
+            </button>
      );
 }
  
