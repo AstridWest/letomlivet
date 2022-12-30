@@ -1,12 +1,22 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from "./views/Home";
+import Coaching from "./views/Coaching";
+import Fysioterapi from "./views/Fysioterapi";
+import Træning from "./views/Træning";
+import Vægttab from "./views/Vægttab";
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/coaching" element={<Coaching />} />
+          <Route path="/Fysioterapi" element={<Fysioterapi />} />
+          <Route path="/Træning" element={<Træning />} />
+          <Route path="/Vægttab" element={<Vægttab />} />
+        </Routes>
     </div>
   );
 }

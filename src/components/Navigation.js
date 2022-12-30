@@ -37,9 +37,10 @@ const Navigation = () => {
             
             <ul>
                 <Link to="/"><li>Forside</li></Link>
-                <Link to="/"><li>Noget</li></Link>
-                <Link to="/"><li>Noget</li></Link>
-                <Link to="/"><li>Noget</li></Link>
+                <Link to="/Træning"><li>Personlig træning</li></Link>
+                <Link to="/coaching"><li>Kostvejledning og coaching</li></Link>
+                <Link to="/Fysioterapi"><li>Fysioterapi</li></Link>
+                <Link to="/Vægttab"><li>Medicinsk vægtab</li></Link>
             </ul>
         </nav>
      );
