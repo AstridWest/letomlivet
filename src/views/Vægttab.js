@@ -1,10 +1,19 @@
+/** @jsxImportSource @emotion/react */
+import { css } from '@emotion/react';
 
+import Moreinfo from "../components/Moreinfo";
 
 const Vægttab = () => {
+    const style = css`
+        background-image: url("https://source.unsplash.com/random/?Fitness/");
+        background-size: cover;
+        padding: 5em 0;
+    `
+
     return ( 
-        <section>
-            <h1>Vægttab</h1>
-        </section>
+        <div css={style}>
+            <Moreinfo title="Vægttab" text="en tekst om et eller andet" />
+        </div>
      );
 }
  

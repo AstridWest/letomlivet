@@ -7,7 +7,7 @@ const Header = () => {
     const style = css`
         background-image: url("placeholderimg.jpg");
         background-size: cover;
-        padding: 2em;
+        padding: 4em 1em;
     `
 
     return ( 

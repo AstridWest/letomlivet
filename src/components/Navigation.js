@@ -1,6 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import { Link } from 'react-router-dom';
+import Book from './Book';
 
 const Navigation = () => {
 
@@ -35,12 +36,13 @@ const Navigation = () => {
                 <img src="logo.png" alt="logo" />
             </div>
             
-            <ul>
+            <ul className=''>
                 <Link to="/"><li>Forside</li></Link>
                 <Link to="/træning"><li>Personlig træning</li></Link>
                 <Link to="/coaching"><li>Kostvejledning og coaching</li></Link>
                 <Link to="/fysioterapi"><li>Fysioterapi</li></Link>
                 <Link to="/vægttab"><li>Medicinsk vægtab</li></Link>
+                <Link><Book /></Link>
             </ul>
         </nav>
      );
