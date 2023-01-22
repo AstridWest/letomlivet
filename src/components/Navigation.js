@@ -1,23 +1,22 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import { Link } from 'react-router-dom';
-import Book from './Book';
 
 const Navigation = () => {
 
     const style = css`
-
         display:flex;
         justify-content: space-between;
-        align-items: end;
+        align-items: top;
 
-        & div {
-            max-width: 9em;
+        & .logo {
+            max-width: 15em;
+            padding: 0 1em;
         }
 
         & ul {
-
             display: flex;
+            padding-top: 1em;
 
             & li {
                     list-style-type: none;
@@ -32,17 +31,15 @@ const Navigation = () => {
     return ( 
         <nav css={style}>
 
-            <div>
-                <img src="logo.png" alt="logo" />
+            <div className='logo'>
+                <img src="logo.png" alt="Let om livet logo" />
             </div>
             
             <ul className=''>
                 <Link to="/"><li>Forside</li></Link>
+                <Link to="/vægttab"><li>Læge konsultation og vægttabs medicin</li></Link>
                 <Link to="/træning"><li>Personlig træning</li></Link>
-                <Link to="/coaching"><li>Kostvejledning og coaching</li></Link>
-                <Link to="/fysioterapi"><li>Fysioterapi</li></Link>
-                <Link to="/vægttab"><li>Medicinsk vægtab</li></Link>
-                <Link><Book /></Link>
+                <Link to="/coaching"><li>Fysioterapi</li></Link>
             </ul>
         </nav>
      );

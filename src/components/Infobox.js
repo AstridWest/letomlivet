@@ -3,7 +3,7 @@ import { css } from '@emotion/react';
 
 const Infobox = ({title, description}) => {
     const style = css`
-        color: white;
+        
     `
 
     return ( 

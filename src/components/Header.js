@@ -5,15 +5,22 @@ import Navigation from "./Navigation";
 const Header = () => {
 
     const style = css`
-        background-image: url("placeholderimg.jpg");
-        background-size: cover;
-        padding: 4em 1em;
+
+        & .topimage {
+            background-image: url("placeholderimg.jpg");
+            background-size: cover;
+            padding: 8em 1em;
+        }
     `
 
     return ( 
+        <>
         <header css={style}>
+            <div className='topimage'></div>
             <Navigation />
         </header>
+        </>
+        
      );
 }
  
