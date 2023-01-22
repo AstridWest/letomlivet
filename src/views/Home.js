@@ -21,6 +21,7 @@ const Home = () => {
         & .intro {
             padding: 3em;
             display: flex;
+            gap: 3em;
 
             & .introimage {
                 flex: 2;
@@ -40,6 +41,7 @@ const Home = () => {
             <Divider text="Let om Livet - med speciale i vægttab, herunder medicinsk behandling" />
 
             <section className='intro'>
+
                 <div className='introimage'>
                     <img src="../placeholderimg.jpg" alt="Menneskerne bag let om livet" />
                 </div>

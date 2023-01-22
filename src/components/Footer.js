@@ -1,24 +1,45 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
+import { IoLogoFacebook } from 'react-icons/io5';
 
 const Footer = () => {
 
     const style = css`
         background-color: grey;
         color: white;
-        padding: 0 1em;
+        padding: 2em 1em;
         display: flex;
         justify-content: space-around;
+
+        & .contact{
+
+        }
+
+        & .socials{
+            text-align: end;
+
+            & a {
+                color: white;
+            }
+        }
     `
 
     return ( 
         <footer css={style}>
-            <p>kontakt os på</p>
-
-            <div>
-                <p>facebook link logo</p>
-                <p>insta link logo</p>
-                <p>link logo</p>
+            <div className='contact'>
+                <h3>Kontakt os på</h3>
+                <p>Email: fdskhfk@kds.com</p>
+                <p>Telefon: +4537965987</p>
+            </div>
+            <div className='socials'>
+                <h3>Følg os på</h3>
+                <div>
+                    <a href="https://www.facebook.com/profile.php?id=100089497236822" target="_blank" rel="noreferrer noopener" className='facebookicon'>
+                        <IoLogoFacebook />
+                    </a> 
+                </div>
+                         
+                <a href="https://www.facebook.com/groups/490514576341747" target="_blank" rel="noreferrer noopener">Bliv en del af gruppen og få svar på dine spørgsmål</a>
             </div>
         </footer>
      );
