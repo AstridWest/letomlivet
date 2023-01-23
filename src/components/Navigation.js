@@ -26,6 +26,18 @@ const Navigation = () => {
                 color: #95c11f;
             }
         }
+
+
+@media only screen and (max-width: 500px) {
+  li {
+    font-size: 0.5em;
+  }
+
+  .logo {
+            font-size: 0.2em;
+            padding: 0 1em;
+        }
+}
 `
 
     return ( 
@@ -35,11 +47,12 @@ const Navigation = () => {
                 <img src="logo.png" alt="Let om livet logo" />
             </div>
             
-            <ul className=''>
+            <ul className='navigation'>
                 <Link to="/"><li>Forside</li></Link>
-                <Link to="/vægttab"><li>Læge konsultation og vægttabs medicin</li></Link>
+                <Link to="/vægttab"><li>Vægttabs medicin</li></Link>
+                {/* <Link to="/Fysioterapi"><li>Fysioterapi</li></Link> */}
                 <Link to="/træning"><li>Personlig træning</li></Link>
-                <Link to="/Fysioterapi"><li>Fysioterapi</li></Link>
+                <Link to="/Priser"><li>Forløb og priser</li></Link>
             </ul>
         </nav>
      );

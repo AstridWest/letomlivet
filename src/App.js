@@ -5,6 +5,7 @@ import Træning from "./views/Træning";
 import Vægttab from "./views/Vægttab";
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Priser from './views/Priser';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/fysioterapi" element={<Fysioterapi />} />
           <Route path="/træning" element={<Træning />} />
           <Route path="/vægttab" element={<Vægttab />} />
+          <Route path='/Priser' element={<Priser />} />
         </Routes>
       <Footer />
     </div>

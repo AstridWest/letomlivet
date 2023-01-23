@@ -5,9 +5,14 @@ const Vægttab = () => {
     const style = css`
         border-top: 0.5em solid #95c11f;
 
-        & h1, h4 {
+        & h1 {
             text-align: center;
             padding: 1.5em 0;
+        }
+
+        & h4 {
+            text-align: center;
+            padding-bottom: 1.5em;
         }
 
         & p {
@@ -16,17 +21,21 @@ const Vægttab = () => {
 
         & .info {
             padding: 0 10em;
+            display: flex;
+            gap: 3em;
+            margin-bottom: 5em;
+
+            & .image {
+                flex:1;
+            }
+
+            & .text {
+                flex:1;
+            }
         }
 
         & .udløser {
-            background-color: #95c11f;
-            color: white;
-            padding: 0 5em;
-            margin:1em 0;
-
-            & ul {
-                padding: 1em 0;
-            }
+            display: flex;
         }
 
         & .bivirkninger {
@@ -45,6 +54,19 @@ const Vægttab = () => {
             background-color: #95c11f;
             color: white;
         }
+
+@media only screen and (max-width: 500px) {
+    .info {
+        flex-direction: column;
+        padding: 0 3em;
+        gap:0;
+    }
+
+    .test {
+        flex-direction: column-reverse;
+    }
+  
+}
     `
 
     return ( 
@@ -53,36 +75,53 @@ const Vægttab = () => {
             <h1>Medicinsk forløb</h1>
 
             <div className='info'>
-                <p>Ved opstart af et medicinsk forløb hos os, indleder vi med en lægekonsultation. Her afklarer vi om du opfylder rammerne til at modtage den medicinske behandling.</p>
-                <p>Opfylder du følgende kriterier, kan du godkendes til hertil:</p>
-                <ul>
-                    <li>BMI over 30</li>
-                    <li>BMI over 27, med vægtrelateret sygdom</li>
-                </ul>
-                <p>Ved lægevurderingen bliver det desuden afklaret om der er kontraindikationer for den medicinske behandling.
-                    Ved kontraindikationer behandler vi ikke med Wegovy - KONTRAINDIKATIONER (Visse helbredstilstande gør dig uegnet til Wegovy behandling. Graviditet. Fertilitetsbehandling. Tidligere betændelse i bugspytskirtlen. Der kan være andre helbredstilstande som udelukker behandlingen, det vil lægen afgøre.)</p>
-                <p>Sådan udregner du BMI:</p>
-                <p>BMI = vægt i kilo / (højde × højde i meter)</p>
-            </div>
-
-            <div className='udløser'>
-                <h4>Wegovy er et kunstigt fremstillet tarmhormon, som kan udløse vægttab ved følgende mekanismer i kroppen:</h4>
-                <ul>
-                    <li>Hæmning af appetit i hjernen</li>
-                    <li>Forsinket tømning af mavesækken, så man oplever mæthed hurtigt ved fødeindtag.</li>
-                    <li>Øget insulineffekt, således at energien bliver ført til musklerne. Her bliver energien brugt fremfor lagret på kroppen som fedt.</li>
-                </ul>
+                <div className='image'><img src="../placeholderimg.jpg" alt="medicin" /></div>
+                <div className='text'>
+                    <p>Ved opstart af et medicinsk forløb hos os, indleder vi med en lægekonsultation. Her afklarer vi om du opfylder rammerne til at modtage den medicinske behandling.</p>
+                    <p>Opfylder du følgende kriterier, kan du godkendes til hertil:</p>
+                    <ul>
+                        <li>BMI over 30</li>
+                        <li>BMI over 27, med vægtrelateret sygdom</li>
+                    </ul>
+                    <p>Ved lægevurderingen bliver det desuden afklaret om der er kontraindikationer for den medicinske behandling.
+                        Ved kontraindikationer behandler vi ikke med Wegovy - KONTRAINDIKATIONER (Visse helbredstilstande gør dig uegnet til Wegovy behandling. Graviditet. Fertilitetsbehandling. Tidligere betændelse i bugspytskirtlen. Der kan være andre helbredstilstande som udelukker behandlingen, det vil lægen afgøre.)</p>
+                    <p>Sådan udregner du BMI:</p>
+                    <p>BMI = vægt i kilo / (højde × højde i meter)</p>
+                </div>
+            
             </div>
             
-            <div className='bivirkninger'>
-                <h4>På grund af disse virkningsmekanismer, kan medicinen udløse bivrikninger i form af:</h4>
-                <ul>
-                    <li>Kvalme</li>
-                    <li>Mavesmerter</li>
-                    <li>Ændret afføring</li>
-                    <li>Tendens til hård mave</li>
-                </ul>
-                <p>Bivirkningerne vil aftage efter en kort behandlingsperiode. Der er mulighed at de kommer kortvarigt tilbage ved dosering.</p>
+            <div className='info test'>
+                <div className='text'>
+                    <h4>Wegovy er et kunstigt fremstillet tarmhormon, som kan udløse vægttab ved følgende mekanismer i kroppen:</h4>
+                    <ul>
+                        <li>Hæmning af appetit i hjernen</li>
+                        <li>Forsinket tømning af mavesækken, så man oplever mæthed hurtigt ved fødeindtag.</li>
+                        <li>Øget insulineffekt, således at energien bliver ført til musklerne. Her bliver energien brugt fremfor lagret på kroppen som fedt.</li>
+                    </ul>  
+                </div>
+
+                <div className='image'><img src="placeholderimg.jpg" alt="placeholderimage" /></div>
+
+            </div>
+            
+            <div className='info'>
+                <div className='image'><img src="placeholderimg.jpg" alt="placeholderimage" /></div>
+                
+                <div className='text'>
+                    <h4>På grund af disse virkningsmekanismer, kan medicinen udløse bivrikninger i form af:</h4>
+
+                    <ul>
+                        <li>Kvalme</li>
+                        <li>Mavesmerter</li>
+                        <li>Ændret afføring</li>
+                        <li>Tendens til hård mave</li>
+                    </ul>
+                    
+                    <p>Bivirkningerne vil aftage efter en kort behandlingsperiode.</p>   
+                    <p>Der er mulighed at de kommer kortvarigt tilbage ved dosering.</p>
+                </div>
+
             </div>
 
             <div className='moreinfo'>

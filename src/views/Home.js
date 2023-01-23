@@ -1,9 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import Divider from '../components/Divider';
-import Infobox from "../components/Infobox";
-// import Button from "../components/Button";
-// import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -13,7 +10,6 @@ const Home = () => {
         & .divider {
             background-color: #95c11f;
             color: white;
-            margin: 1em 0;
             padding: 1em 0;
             font-style: italic;
         }
@@ -23,23 +19,22 @@ const Home = () => {
             display: flex;
             gap: 3em;
 
-            & .introimage {
-                flex: 2;
-            }
-
-            & .introduktion {
-                flex: 3;
-                padding:1em;
+            & p {
+                padding-bottom: 1.5em;
             }
         }
+
+@media only screen and (max-width: 500px) {
+    .intro {
+        flex-direction: column;
+    }
+}
         
     `
 
     return ( 
         <div css={style}>
-            
-            <Divider text="Let om Livet - med speciale i vægttab, herunder medicinsk behandling" />
-
+                                <h1>Let om Livet - med speciale i vægttab, herunder medicinsk behandling</h1>
             <section className='intro'>
 
                 <div className='introimage'>
@@ -47,17 +42,16 @@ const Home = () => {
                 </div>
                 
                 <div className='introduktion'>
-                    <h1>Introduktion</h1>
                     <p>Hos Let om Livet vil vi gerne have, at flere mennesker får de redskaber og den hjælp de har brug for, for at kunne tabe sig. Vores højeste målsætning er at du opnår et varigt vægttab, gennem livsstilsændringer med fokus på fysisk aktivitet og kostvaner.</p>
+                    <p>I Let om Livet står vi klar til at designe vægttabsprogrammet, der passer bedst til dig og dine behov. Vi kan tilbyde"</p>
+                    <p>⦁ Lægekonsultation - herunder medicinsk behandling</p>
+                    <p>⦁ Personlig træning, coaching og kostvejledning inkluderet - både online og ved fremmøde</p>
+                    <p>⦁ Fysioterapi</p>
                 </div>
                 
             </section>
 
-            <Divider text="I Let om Livet står vi klar til at designe vægttabsprogrammet, der passer bedst til dig og dine behov. Vi kan tilbyde" list="⦁ Lægekonsultation - herunder medicinsk behandling
-⦁ Personlig træning, coaching og kostvejledning inkluderet - både online og ved fremmøde
-⦁ Fysioterapi" />
-
-            <Infobox description="" />
+            <Divider />
             
         </div>
      );
