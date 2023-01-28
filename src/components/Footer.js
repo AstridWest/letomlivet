@@ -11,9 +11,9 @@ const Footer = () => {
         display: flex;
         justify-content: space-around;
 
-        & .contact{
-
-        }
+        h3 {
+                padding-bottom: 0.5em;
+            }
 
         & .socials{
             text-align: end;
@@ -21,18 +21,24 @@ const Footer = () => {
             & a {
                 color: white;
             }
+
+            & div {
+                padding-bottom: 0.5em;
+            }
         }
     `
 
     return ( 
         <footer css={style}>
+
             <div className='contact'>
                 <h3>Kontakt os på</h3>
-                <p>Email: fdskhfk@kds.com</p>
-                <p>Telefon: +4537965987</p>
+                <p>Email: kontakt@letomlivet.com</p>
             </div>
+
             <div className='socials'>
                 <h3>Følg os på</h3>
+
                 <div>
                     <a href="https://www.facebook.com/profile.php?id=100089497236822" target="_blank" rel="noreferrer noopener" className='facebookicon'>
                         <IoLogoFacebook />

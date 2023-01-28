@@ -19,6 +19,10 @@ const Vægttab = () => {
             padding: 1em 0;
         }
 
+        & li {
+            padding-bottom: 0.5em;
+        }
+
         & .info {
             padding: 0 10em;
             display: flex;
@@ -31,6 +35,10 @@ const Vægttab = () => {
 
             & .text {
                 flex:1;
+            }
+
+            & .test{
+                padding-top: 0;
             }
         }
 
@@ -75,9 +83,9 @@ const Vægttab = () => {
             <h1>Medicinsk forløb</h1>
 
             <div className='info'>
-                <div className='image'><img src="../placeholderimg.jpg" alt="medicin" /></div>
+                <div className='image'><img src="doctorpatient.jpg" alt="læge der holder din hånd" /></div>
                 <div className='text'>
-                    <p>Ved opstart af et medicinsk forløb hos os, indleder vi med en lægekonsultation. Her afklarer vi om du opfylder rammerne til at modtage den medicinske behandling.</p>
+                    <p className='test'>Ved opstart af et medicinsk forløb hos os, indleder vi med en lægekonsultation. Her afklarer vi om du opfylder rammerne til at modtage den medicinske behandling.</p>
                     <p>Opfylder du følgende kriterier, kan du godkendes til hertil:</p>
                     <ul>
                         <li>BMI over 30</li>
@@ -87,6 +95,8 @@ const Vægttab = () => {
                         Ved kontraindikationer behandler vi ikke med Wegovy - KONTRAINDIKATIONER (Visse helbredstilstande gør dig uegnet til Wegovy behandling. Graviditet. Fertilitetsbehandling. Tidligere betændelse i bugspytskirtlen. Der kan være andre helbredstilstande som udelukker behandlingen, det vil lægen afgøre.)</p>
                     <p>Sådan udregner du BMI:</p>
                     <p>BMI = vægt i kilo / (højde × højde i meter)</p>
+                    <p>Eksempel: Er man 170 cm og vejer 90 kg:</p>
+                    <p>90 / (1,7 x 1,7) = 31,1</p>
                 </div>
             
             </div>
@@ -101,12 +111,12 @@ const Vægttab = () => {
                     </ul>  
                 </div>
 
-                <div className='image'><img src="placeholderimg.jpg" alt="placeholderimage" /></div>
+                <div className='image'><img src="womanhappy.jpg" alt="en glad kvinde" /></div>
 
             </div>
             
             <div className='info'>
-                <div className='image'><img src="placeholderimg.jpg" alt="placeholderimage" /></div>
+                <div className='image'><img src="womanstairs.jpg" alt="en kvinde der går op af trapper" /></div>
                 
                 <div className='text'>
                     <h4>På grund af disse virkningsmekanismer, kan medicinen udløse bivrikninger i form af:</h4>

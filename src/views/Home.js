@@ -18,6 +18,15 @@ const Home = () => {
             padding: 3em;
             display: flex;
             gap: 3em;
+            font-family: 'Source Sans Pro', sans-serif;
+
+            & .image {
+                flex:1;
+            }
+
+            & .introduktion {
+                flex:1;
+            }
 
             & p {
                 padding-bottom: 1.5em;
@@ -34,16 +43,20 @@ const Home = () => {
 
     return ( 
         <div css={style}>
-                                <h1>Let om Livet - med speciale i vægttab, herunder medicinsk behandling</h1>
+            <h1>Let om Livet - med speciale i vægttab, herunder medicinsk behandling</h1>
             <section className='intro'>
 
-                <div className='introimage'>
-                    <img src="../placeholderimg.jpg" alt="Menneskerne bag let om livet" />
+                <div className='image'>
+                    <img src="family.jpg" alt="Menneskerne bag, let om livet" />
                 </div>
                 
                 <div className='introduktion'>
-                    <p>Hos Let om Livet vil vi gerne have, at flere mennesker får de redskaber og den hjælp de har brug for, for at kunne tabe sig. Vores højeste målsætning er at du opnår et varigt vægttab, gennem livsstilsændringer med fokus på fysisk aktivitet og kostvaner.</p>
-                    <p>I Let om Livet står vi klar til at designe vægttabsprogrammet, der passer bedst til dig og dine behov. Vi kan tilbyde"</p>
+                    <p>Let om Livet står klar til, at give dig redskaberne til varige resultater. 
+                        Vi hjælper med livsstil og vaneændringer, med fokus på fysisk aktivitet, kost og supplerende vægttabsmedicin.
+                        Har du et ønske om forandring, hvad enten det er med henblik på vægttab, smertebehandling, forbedret form, øget styrke eller større muskler. Så er Let om Livet sundhedsklinikken for dig.
+                    </p>
+                    <p>Vi har en ambition om at hjælpe dig, til at få et større fysisk og mentalt overskud i hverdagen, og være det bedste version af dig selv, for både dig og dine nærmeste.</p>
+                    <p>Vi kan tilbyde:</p>
                     <p>⦁ Lægekonsultation - herunder medicinsk behandling</p>
                     <p>⦁ Personlig træning, coaching og kostvejledning inkluderet - både online og ved fremmøde</p>
                     <p>⦁ Fysioterapi</p>
