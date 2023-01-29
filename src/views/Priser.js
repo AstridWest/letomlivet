@@ -1,5 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
+import { ContactUs } from '../components/ContactUs';
 
 import Divider from "../components/Divider";
 
@@ -38,9 +39,18 @@ const Priser = () => {
             }
         }
 
-        & .gørsomjegsiger{
+        & .titler{
             padding-bottom: 0.5em;
         }
+    
+    & .mail {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 1em 5em;
+    }
 
 @media only screen and (max-width: 500px) {
     .info {
@@ -70,7 +80,7 @@ const Priser = () => {
                         <li><p>◊ Medicinsk forløb, pr. måned</p> <p>249,-</p> </li>
                     </ul>
                     <ul>
-                        <p className='gørsomjegsiger'>Medicinsk forløb med personligt træning ved fremmøde, pr. måned</p>
+                        <p className='titler'>Medicinsk forløb med personligt træning ved fremmøde, pr. måned</p>
                         <li><p>◊ 1 træning om ugen</p><p>2.699,-</p></li>
                         <li><p>◊ 2 træninger om ugen (Anbefalet)</p><p>4.199,-</p></li>
                         <li><p>◊ 3 træning om ugen</p><p>5.999,-</p></li>
@@ -79,7 +89,7 @@ const Priser = () => {
                         <li><p>◊ Medicinsk behandling med online forløb, pr. måned</p><p>999,-</p></li>
                     </ul>
                     <ul>
-                        <p className='gørsomjegsiger'>Personligt træningsforløb med fremmøde, pr. måned</p>
+                        <p className='titler'>Personligt træningsforløb med fremmøde, pr. måned</p>
                         <li><p>◊ 1 træning om ugen</p><p>2.499,-</p></li>
                         <li><p>◊ 2 træninger om ugen</p><p>3.999,-</p></li>
                         <li><p>◊ 3 træning om ugen</p><p>5.799,-</p></li>
@@ -89,6 +99,12 @@ const Priser = () => {
                     </ul>
                 </div>
             </div>
+
+            <div className='mail'>
+                <h2>Send os en mail!</h2>
+                <ContactUs />
+            </div>
+                
 
                 <Divider text="Vi gør opmærksom på at priserne er uden medicinen." list="Sygeforsikring Danmark giver tilskud på den medicinske behandling, 25-50% afhængig af om man er medlem af gruppe 1,2 eller 5." />
             </div>

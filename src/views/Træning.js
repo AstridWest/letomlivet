@@ -44,7 +44,7 @@ const Træning = () => {
         gap:0;
     }
 
-    .test {
+    .reverse {
         flex-direction: column-reverse;
     }
   
@@ -69,7 +69,7 @@ const Træning = () => {
                 
             </div>
 
-            <div className='info'>
+            <div className='info reverse'>
                 <div className='text'>
                     <h4>Vægttabsforløb</h4>
                     <p>Hos Let om Livet tilbyder vi træningsforløb med fokus på vægttab. Disse  forløb kan naturligvis kombineres med medicinsk forløb med Wegovy som supplement.</p>
@@ -101,7 +101,7 @@ const Træning = () => {
                 
             </div>
 
-            <div className='info'>
+            <div className='info reverse'>
                 <div className='text'>
                     <h4>Onlineforløb:</h4>
                     <p>Et online forløb indledes ved en virtuel samtale. Dialogen tager afsæt i dig, din situation, behov og målsætning. I samarbejde med dig får du lagt et træningsprogram, hvad enten du er til træning i center, det fri, hjemmetræning eller noget helt fjerde, finder vi vejen som passer bedst til dig. Under forløbet holder vi løbende kontakt.

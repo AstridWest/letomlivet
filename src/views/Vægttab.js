@@ -70,7 +70,7 @@ const Vægttab = () => {
         gap:0;
     }
 
-    .test {
+    .reverse{
         flex-direction: column-reverse;
     }
   
@@ -101,7 +101,7 @@ const Vægttab = () => {
             
             </div>
             
-            <div className='info test'>
+            <div className='info reverse'>
                 <div className='text'>
                     <h4>Wegovy er et kunstigt fremstillet tarmhormon, som kan udløse vægttab ved følgende mekanismer i kroppen:</h4>
                     <ul>
