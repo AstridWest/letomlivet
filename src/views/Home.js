@@ -31,6 +31,10 @@ const Home = () => {
             & p {
                 padding-bottom: 1.5em;
             }
+
+            & .italic{
+                font-style: italic;
+            }
         }
 
 @media only screen and (max-width: 500px) {
@@ -51,15 +55,23 @@ const Home = () => {
                 </div>
                 
                 <div className='introduktion'>
-                    <p>Let om Livet står klar til, at give dig redskaberne til varige resultater. 
-                        Vi hjælper med livsstil og vaneændringer, med fokus på fysisk aktivitet, kost og supplerende vægttabsmedicin.
-                        Har du et ønske om forandring, hvad enten det er med henblik på vægttab, smertebehandling, forbedret form, øget styrke eller større muskler. Så er Let om Livet sundhedsklinikken for dig.
+                    <p>
+                        Overflødige kilo på kroppen, smerte i hverdagen, dårlig samvittighed efter et måltid.
+                        Kan du nikke genkendende til en eller flere af de ting, så er du langt fra den eneste.
                     </p>
-                    <p>Vi har en ambition om at hjælpe dig, til at få et større fysisk og mentalt overskud i hverdagen, og være det bedste version af dig selv, for både dig og dine nærmeste.</p>
-                    <p>Vi kan tilbyde:</p>
-                    <p>⦁ Lægekonsultation - herunder medicinsk behandling</p>
-                    <p>⦁ Personlig træning, coaching og kostvejledning inkluderet - både online og ved fremmøde</p>
+                    <p>
+                        Let om Livet står klar til, at give dig redskaberne til varige resultater. 
+                    </p>
+                    <p>
+                        Vi hjælper med livsstil og vaneændringer, med fokus på fysisk aktivitet, kost og supplerende vægttabsmedicin. Vores principper er ligetil, uden kost restriktioner og kan blive en del af dit repetoire.
+                    </p>
+                    <p>Har du et ønske om forandring, hvad enten det er med henblik på vægttab, smertebehandling, forbedret form, øget styrke eller større muskler. Så er Let om Livet sundhedsklinikken for dig.</p>
+                    <p>Vi har en ambition om at hjælpe dig, til at få et større fysisk og mentalt overskud i hverdagen, og blive den bedste version af dig, for både dig selv, og dine nærmeste.</p>
+                    <p>Til dette formål tilbyder klinikken</p>
+                    <p>⦁ Lægekonsultation - herunder vægttabsmedicin</p>
                     <p>⦁ Fysioterapi</p>
+                    <p>⦁ Personlig træning, styrketræning og reformer pilates </p>
+                    <p className='italic'>- Hertil coaching og kostvejledning inkluderet, både online og ved fremmøde</p>
                 </div>
                 
             </section>

@@ -13,11 +13,15 @@ const Træning = () => {
 
         & h4 {
             text-align: center;
-            padding-bottom: 1.5em;
+            padding-bottom: 0.5em;
         }
 
         & p {
-            padding-bottom: 1em;
+            padding-bottom: 0.5em;
+        }
+
+        & li {
+            list-style-type: none;
         }
 
         & .info {
@@ -32,6 +36,17 @@ const Træning = () => {
 
             & .text {
                 flex:3;
+            }
+
+            & .list{
+                padding:0.7em 0;
+            }
+
+            & .bigimage{
+
+                & img {
+                    height:100%;
+                }
             }
         }
 
@@ -61,10 +76,46 @@ const Træning = () => {
                 </div>
                 
                 <div className='text'>
-                    <p>Et træningsforløb indledes med en samtale, hvor vi får defineret hvilke mål du har og hvordan din nuværende fysiske form er
-                    I alle vores forløb er kostvejledning, vane og adfærdscoaching omkring spisevaner inkluderet, da dette er essensielt for livsstilsændringer
-                    Træningsforholdene er private med udgangspunkt i 1:1 træning. Dog er der mulighed for duet træning.
-                    </p>  
+                    <p>Drømmekroppen behøver ikke forblive en drøm, kom godt i gang med Let om Livet ved din side. Ingen slankekurer, ingen forbud, ingen dårlig samvittighed.</p>
+                    
+                    <div>
+                        <p>Vi hjælper dig af med</p>
+                        <ul>
+                            <li>⦁ De overflødige kilo</li>
+                            <li>⦁ De irriterende skader og skavanker</li>
+                            <li>⦁ Usunde forhold til kost</li>
+                        </ul>  
+                    </div>
+                    
+
+                    <div className='list'>
+                        <p>Og hen imod</p>
+                        <ul>
+                            <li>⦁ Større mentalt of fysisk overskud</li>
+                            <li>⦁ En stærkere, mere udholdene og smertefri krop</li>
+                            <li>⦁ Forbedret helbred og velvære</li>
+                            <li>⦁ Større tilfredshed og bedre samvittighed</li>
+                        </ul>  
+                    </div>
+                    
+
+                    <p>
+                        Et træningsforløb indledes med en samtale, hvor vi får defineret hvilke mål du har og hvordan din nuværende fysiske form er.
+                    </p>
+
+                    <p>
+                    I alle vores forløb er kostvejledning, vane og adfærdscoaching omkring spisevaner inkluderet. 
+                    Spiser du med følelser, mangler du noget i kosten eller lignende, så er vi klar til at hjælpe med det også. Vi arbejder ud fra simple og ukomplicerede kost og træningsprincipper, og du bliver naturligvis sat godt ind i dem.
+                    </p>
+
+                    <p>
+                        Træningsforholdene er private med udgangspunkt i 1:1 træning. Dog er der mulighed for duet træning. Det er op til dig om du vil træne alene eller med en du kender, og der er i hvert fald lidt rabat at hente, oveni støtten fra din træningspartner.
+                    </p>
+
+                    <p>
+                        Husk at der er mulighed for traditionel styrketræning, og/eller Reformer pilates.
+                        Dette kan du høre mere om ved samtalen.
+                    </p>
                 </div>
                 
             </div>
@@ -81,22 +132,31 @@ const Træning = () => {
                     <p>Man træner med fjedermodstand, og i stor grad uden om tyndgekræften.</p>
                 </div>
 
-                <div className='image'>
+                <div className='image bigimage'>
                     <img src="diet.jpg" alt="en kvinde der holder et æble" />
                 </div>
             </div>
 
             <div className='info'>
-                <div className='image'>
+                <div className='image bigimage'>
                     <img src="styrketræning.jpg" alt="kvinde der træner" />
                 </div>
 
                 <div className='text'>
                     <h4>Styrkeforløb</h4>
-                    <p>Er du interesseret i at opbygge muskelmasse, er dette forløbet til dig.
-                    Træning hos Let om Livet tager udgangspunkt i at bygge dig op fra grunden, skabe gode bevægelsesmønstre og grundstyrke. Hertil er der fri sparring ved hver træningspas, så vores viden bliver din viden.
-                    Desuden vil din træning blive bygget op, efter en videnskabelig tilgang, for at minimere skaderisici og optimere dine træningsresultater.
-                    </p>    
+                    <p>
+                    Er du interesseret i at opbygge muskelmasse, er dette forløbet til dig.
+                    Træning hos Let om Livet tager udgangspunkt i at bygge dig op fra grunden, skabe gode bevægelsesmønstre og grundstyrke. Hertil er der fri sparring ved hver træningspas, så vores viden bliver din viden. 
+                    </p>   
+                    <p>
+                        Desuden vil din træning blive bygget op, efter en videnskabelig tilgang, for at minimere skaderisici og optimere dine træningsresultater.
+                    </p>
+                    <p>
+                        Vi sørger naturligvis for at træningen bliver sjov og varrieret, samtidig med at den er tilpasset dine præferencer. 
+                    </p>
+                    <p>
+                        Har du først været igennem dette forløb, bliver fitnesscenteret og programlægning, langt mere overskueligt, da du ikke kun får erfaring, men også en masse grundviden om effektiv træning, og et bredt øvelses repetoire af høj kvalitet.     
+                    </p>
                 </div>
                 
             </div>
@@ -104,12 +164,20 @@ const Træning = () => {
             <div className='info reverse'>
                 <div className='text'>
                     <h4>Onlineforløb:</h4>
-                    <p>Et online forløb indledes ved en virtuel samtale. Dialogen tager afsæt i dig, din situation, behov og målsætning. I samarbejde med dig får du lagt et træningsprogram, hvad enten du er til træning i center, det fri, hjemmetræning eller noget helt fjerde, finder vi vejen som passer bedst til dig. Under forløbet holder vi løbende kontakt.
+                    <p>
+                        Et online forløb indledes ved en virtuel samtale. Dialogen tager afsæt i dig, din situation, behov og målsætning. I samarbejde med dig får du lagt et træningsprogram, hvad enten du er til træning i center, det fri, hjemmetræning eller noget helt fjerde, finder vi vejen som passer bedst til dig.
+                    </p>
+                    <p>
+                        Under forløbet holder vi løbende kontakt, og du får coaching i at opbygge bedre vaner i hverdagen. Vi har fokus på kost, træning, vaner og mindset, således at du bliver klædt på til, at fortsætte de gode vaner og resultater fremadrettet.
+                    </p>
+                    <p>
+                        Vores viden bliver din viden, så du bliver i stand til, at sortere de mange misinformationer, omkring kost og træning, fra. 
+                        Det er vanerne og din viden der gør, at du kan tage de gode resultater med dig fremover.
                     </p>
                     <p>Ved behov kan du altid kontakte os.</p>
                 </div>
 
-                <div className='image'>
+                <div className='image bigimage'>
                     <img src="sportywoman.jpg" alt="kvinde der træner i fitnesscenteret med sit onlineforløb" />
                 </div>
             </div>

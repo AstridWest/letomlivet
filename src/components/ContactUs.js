@@ -58,6 +58,11 @@ export const ContactUs = () => {
       font-size: 0.7em;
       font-style: italic;
     }
+
+    & a {
+      color: red;
+
+    }
   `
 
   const form = useRef();
