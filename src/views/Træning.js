@@ -107,7 +107,9 @@ const Træning = () => {
                     I alle vores forløb er kostvejledning, vane og adfærdscoaching omkring spisevaner inkluderet. 
                     Spiser du med følelser, mangler du noget i kosten eller lignende, så er vi klar til at hjælpe med det også. Vi arbejder ud fra simple og ukomplicerede kost og træningsprincipper, og du bliver naturligvis sat godt ind i dem.
                     </p>
-
+                    <p>
+                        Personlig træning foregår i Snekkersten, Nordsjælland.
+                    </p>
                     <p>
                         Træningsforholdene er private med udgangspunkt i 1:1 træning. Dog er der mulighed for duet træning. Det er op til dig om du vil træne alene eller med en du kender, og der er i hvert fald lidt rabat at hente, oveni støtten fra din træningspartner.
                     </p>

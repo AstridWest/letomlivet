@@ -28,6 +28,10 @@ const Home = () => {
                 flex:1;
             }
 
+            & h4 {
+                padding-bottom: 0.7em;
+            }
+
             & p {
                 padding-bottom: 1.5em;
             }
@@ -55,10 +59,9 @@ const Home = () => {
                 </div>
                 
                 <div className='introduktion'>
-                    <p>
-                        Overflødige kilo på kroppen, smerte i hverdagen, dårlig samvittighed efter et måltid.
-                        Kan du nikke genkendende til en eller flere af de ting, så er du langt fra den eneste.
-                    </p>
+                    <h4>
+                        Har du en drøm om hvordan din krop skal se ud og føles, og er du klar til at investere i dig selv?
+                    </h4>
                     <p>
                         Let om Livet står klar til, at give dig redskaberne til varige resultater. 
                     </p>
