@@ -55,7 +55,7 @@ const Home = () => {
             <section className='intro'>
 
                 <div className='image'>
-                    <img src="family.jpg" alt="Menneskerne bag, let om livet" />
+                    <img src="./images/family.jpg" alt="Menneskerne bag, let om livet" />
                 </div>
                 
                 <div className='introduktion'>

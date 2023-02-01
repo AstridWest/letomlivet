@@ -72,7 +72,7 @@ const Træning = () => {
 
             <div className='info'>
                 <div className='image'>
-                    <img src="jonas.jpg" alt="den personlige træner" />
+                    <img src="./images/jonas.jpg" alt="den personlige træner" />
                 </div>
                 
                 <div className='text'>
@@ -135,13 +135,13 @@ const Træning = () => {
                 </div>
 
                 <div className='image bigimage'>
-                    <img src="diet.jpg" alt="en kvinde der holder et æble" />
+                    <img src="./images/diet.jpg" alt="en kvinde der holder et æble" />
                 </div>
             </div>
 
             <div className='info'>
                 <div className='image bigimage'>
-                    <img src="styrketræning.jpg" alt="kvinde der træner" />
+                    <img src="./images/styrketræning.jpg" alt="kvinde der træner" />
                 </div>
 
                 <div className='text'>
@@ -180,7 +180,7 @@ const Træning = () => {
                 </div>
 
                 <div className='image bigimage'>
-                    <img src="sportywoman.jpg" alt="kvinde der træner i fitnesscenteret med sit onlineforløb" />
+                    <img src="./images/sportywoman.jpg" alt="kvinde der træner i fitnesscenteret med sit onlineforløb" />
                 </div>
             </div>
 

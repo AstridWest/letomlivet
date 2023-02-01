@@ -71,7 +71,7 @@ const Priser = () => {
 
             <div className='info'>
                 <div className='image'>
-                    <img src="payment.jpg" alt="en gruppe der går sammen" />
+                    <img src="./images/payment.jpg" alt="en gruppe der går sammen" />
                 </div>
                 
                 <div className='text'>

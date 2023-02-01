@@ -83,7 +83,9 @@ const Vægttab = () => {
             <h1>Medicinsk forløb</h1>
 
             <div className='info'>
-                <div className='image'><img src="doctorpatient.jpg" alt="læge der holder din hånd" /></div>
+                <div className='image'>
+                    <img src="./images/doctorpatient.jpg" alt="læge der holder din hånd" />
+                </div>
                 <div className='text'>
                     <p className='test'>Ved opstart af et medicinsk forløb hos os, indleder vi med en lægekonsultation. Her afklarer vi om du opfylder rammerne til at modtage den medicinske behandling.</p>
                     <p>Opfylder du følgende kriterier, kan du godkendes til hertil:</p>
@@ -111,12 +113,16 @@ const Vægttab = () => {
                     </ul>  
                 </div>
 
-                <div className='image'><img src="womanhappy.jpg" alt="en glad kvinde" /></div>
+                <div className='image'>
+                    <img src="./images/womanhappy.jpg" alt="en glad kvinde" />
+                </div>
 
             </div>
             
             <div className='info'>
-                <div className='image'><img src="womanstairs.jpg" alt="en kvinde der går op af trapper" /></div>
+                <div className='image'>
+                    <img src="./images/stairs.jpg" alt="en kvinde der går op af trapper" />
+                </div>
                 
                 <div className='text'>
                     <h4>På grund af disse virkningsmekanismer, kan medicinen udløse bivrikninger i form af:</h4>

@@ -44,15 +44,15 @@ const Navigation = () => {
         <nav css={style}>
 
             <div className='logo'>
-                <img src="logo.png" alt="Let om livet logo" />
+                <img src="./images/logo.png" alt="Let om livet logo" />
             </div>
             
             <ul className='navigation'>
                 <Link to="/"><li>Forside</li></Link>
-                <Link to="/vægttab"><li>Vægttabs medicin</li></Link>
+                <Link to="vægttab"><li>Vægttabs medicin</li></Link>
                 {/* <Link to="/Fysioterapi"><li>Fysioterapi</li></Link> */}
-                <Link to="/træning"><li>Personlig træning</li></Link>
-                <Link to="/Priser"><li>Forløb og priser</li></Link>
+                <Link to="træning"><li>Personlig træning</li></Link>
+                <Link to="Priser"><li>Forløb og priser</li></Link>
             </ul>
         </nav>
      );
