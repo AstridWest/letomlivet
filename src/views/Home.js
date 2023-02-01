@@ -66,7 +66,7 @@ const Home = () => {
                         Let om Livet står klar til, at give dig redskaberne til varige resultater. 
                     </p>
                     <p>
-                        Vi hjælper med livsstil og vaneændringer, med fokus på fysisk aktivitet, kost og supplerende vægttabsmedicin. Vores principper er ligetil, uden kost restriktioner og kan blive en del af dit repetoire.
+                        Vi hjælper med livsstil og vaneændringer, med fokus på fysisk aktivitet, kost og supplerende vægttabsmedicin. Vores principper er ligetil, uden kostrestriktioner og kan blive en del af dit repetoire.
                     </p>
                     <p>Har du et ønske om forandring, hvad enten det er med henblik på vægttab, smertebehandling, forbedret form, øget styrke eller større muskler. Så er Let om Livet sundhedsklinikken for dig.</p>
                     <p>Vi har en ambition om at hjælpe dig, til at få et større fysisk og mentalt overskud i hverdagen, og blive den bedste version af dig, for både dig selv, og dine nærmeste.</p>
