@@ -52,7 +52,7 @@ const Træning = () => {
 
        
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 750px) {
     .info {
         flex-direction: column;
         padding: 0 3em;
@@ -115,7 +115,7 @@ const Træning = () => {
                     </p>
 
                     <p>
-                        Husk at der er mulighed for traditionel styrketræning, og/eller Reformer pilates.
+                        Husk at der er mulighed for traditionel styrketræning, og/eller Reformer Pilates.
                         Dette kan du høre mere om ved samtalen.
                     </p>
                 </div>

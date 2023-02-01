@@ -41,7 +41,7 @@ const Home = () => {
             }
         }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
     .intro {
         flex-direction: column;
     }

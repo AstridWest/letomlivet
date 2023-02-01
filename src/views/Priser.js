@@ -28,7 +28,7 @@ const Priser = () => {
             padding: 0 10em;
             display: flex;
             gap: 3em;
-            margin-bottom: 5em;
+            margin-bottom: 1em;
 
             & .image {
                 flex:1;
@@ -50,9 +50,10 @@ const Priser = () => {
         align-items: center;
         margin: 0 auto;
         padding: 0 1em 5em;
+        margin-top: 3em;
     }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 750px) {
     .info {
         flex-direction: column;
         padding: 0 3em;
@@ -100,14 +101,13 @@ const Priser = () => {
                 </div>
             </div>
 
+            <Divider text="Vi gør opmærksom på at priserne er uden medicinen." list="Sygeforsikring Danmark giver tilskud på den medicinske behandling, 25-50% afhængig af om man er medlem af gruppe 1,2 eller 5." />
+
             <div className='mail'>
                 <h2>Send os en mail!</h2>
                 <ContactUs />
             </div>
-                
-
-                <Divider text="Vi gør opmærksom på at priserne er uden medicinen." list="Sygeforsikring Danmark giver tilskud på den medicinske behandling, 25-50% afhængig af om man er medlem af gruppe 1,2 eller 5." />
-            </div>
+        </div>
      );
 }
  

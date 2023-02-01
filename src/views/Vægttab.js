@@ -40,6 +40,10 @@ const Vægttab = () => {
             & .test{
                 padding-top: 0;
             }
+
+            & .test img {
+                max-height:500px;
+            }
         }
 
         & .udløser {
@@ -63,7 +67,8 @@ const Vægttab = () => {
             color: white;
         }
 
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 750px) {
     .info {
         flex-direction: column;
         padding: 0 3em;
@@ -81,6 +86,30 @@ const Vægttab = () => {
         <div css={style}>
 
             <h1>Medicinsk forløb</h1>
+
+            <div className='info reverse'>
+            
+                <div className='text'>
+                    <p>
+                        Jeg er en læge, som i mange år har beskæftiget mig med behandling, herunder den medicinske behandling, af personer med overvægt, livstilsbetingede helbredsudfordringer og sygdomme samt Diabetes 2. Dette i forbindelse med mange års tjeneste i lægepraksis samt med patienter i min private konsultation. 
+                    </p>
+                    <p>
+                        Hertil har jeg mange års erfaring som underviser indenfor området. 
+                        Får du hjælp til at komme ud af din overvægt, så vil du få og opleve et markant bedret liv. 
+                    </p>
+                    <p>
+                        Du skal være meget velkommen.
+                    </p>
+                    <p>
+                        - Læge Per Warrer
+                    </p>
+
+                </div>
+                
+                <div className='image test'>
+                    <img src="./images/lægen.jpg" alt="lægen" />
+                </div>
+            </div>
 
             <div className='info'>
                 <div className='image'>
@@ -135,9 +164,8 @@ const Vægttab = () => {
                     </ul>
                     
                     <p>Bivirkningerne vil aftage efter en kort behandlingsperiode.</p>   
-                    <p>Der er mulighed at de kommer kortvarigt tilbage ved dosering.</p>
+                    <p>Der er mulighed for at de kommer kortvarigt tilbage ved øget dosering.</p>
                 </div>
-
             </div>
 
             <div className='moreinfo'>
