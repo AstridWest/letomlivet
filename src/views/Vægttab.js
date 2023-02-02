@@ -40,10 +40,6 @@ const Vægttab = () => {
             & .test{
                 padding-top: 0;
             }
-
-            & .test img {
-                max-height:500px;
-            }
         }
 
         & .udløser {
@@ -116,13 +112,13 @@ const Vægttab = () => {
                     <img src="./images/doctorpatient.jpg" alt="læge der holder din hånd" />
                 </div>
                 <div className='text'>
-                    <p className='test'>Ved opstart af et medicinsk forløb hos os, indleder vi med en lægekonsultation. Her afklarer vi om du opfylder rammerne til at modtage den medicinske behandling.</p>
-                    <p>Opfylder du følgende kriterier, kan du godkendes til hertil:</p>
+                    <p className='test'>Ved opstart af et medicinsk forløb hos os, indleder vi med en lægekonsultation. Her afklarer vi, om du opfylder rammerne til at modtage den medicinske behandling.</p>
+                    <p>Opfylder du følgende kriterier, kan du godkendes hertil:</p>
                     <ul>
                         <li>BMI over 30</li>
                         <li>BMI over 27, med vægtrelateret sygdom</li>
                     </ul>
-                    <p>Ved lægevurderingen bliver det desuden afklaret om der er kontraindikationer for den medicinske behandling.
+                    <p>Ved lægevurderingen bliver det desuden afklaret, om der er kontraindikationer for den medicinske behandling.
                         Ved kontraindikationer behandler vi ikke med Wegovy - KONTRAINDIKATIONER (Visse helbredstilstande gør dig uegnet til Wegovy behandling. Graviditet. Fertilitetsbehandling. Tidligere betændelse i bugspytskirtlen. Der kan være andre helbredstilstande som udelukker behandlingen, det vil lægen afgøre.)</p>
                     <p>Sådan udregner du BMI:</p>
                     <p>BMI = vægt i kilo / (højde × højde i meter)</p>
@@ -164,7 +160,7 @@ const Vægttab = () => {
                     </ul>
                     
                     <p>Bivirkningerne vil aftage efter en kort behandlingsperiode.</p>   
-                    <p>Der er mulighed for at de kommer kortvarigt tilbage ved øget dosering.</p>
+                    <p>Der er mulighed for, at de kommer kortvarigt tilbage ved øget dosering.</p>
                 </div>
             </div>
 

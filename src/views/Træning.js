@@ -91,7 +91,7 @@ const Træning = () => {
                     <div className='list'>
                         <p>Og hen imod</p>
                         <ul>
-                            <li>⦁ Større mentalt of fysisk overskud</li>
+                            <li>⦁ Større mentalt og fysisk overskud</li>
                             <li>⦁ En stærkere, mere udholdene og smertefri krop</li>
                             <li>⦁ Forbedret helbred og velvære</li>
                             <li>⦁ Større tilfredshed og bedre samvittighed</li>
@@ -111,7 +111,7 @@ const Træning = () => {
                         Personlig træning foregår i Snekkersten, Nordsjælland.
                     </p>
                     <p>
-                        Træningsforholdene er private med udgangspunkt i 1:1 træning. Dog er der mulighed for duet træning. Det er op til dig om du vil træne alene eller med en du kender, og der er i hvert fald lidt rabat at hente, oveni støtten fra din træningspartner.
+                        Træningsforholdene er private med udgangspunkt i 1:1 træning. Dog er der mulighed for duet træning. Det er op til dig, om du vil træne alene eller med en du kender, og der er i hvert fald lidt rabat at hente, oveni støtten fra din træningspartner.
                     </p>
 
                     <p>
