@@ -25,7 +25,6 @@ const Priser = () => {
         }
 
         & .info {
-            padding: 0 10em;
             display: flex;
             gap: 3em;
             margin-bottom: 1em;
@@ -68,7 +67,9 @@ const Priser = () => {
     `
     return ( 
         <div css={style}>
-                <h1>Priser og forløb:</h1>
+            <h1>Priser og forløb:</h1>
+
+            <div className="maxwidth">
 
             <div className='info'>
                 <div className='image'>
@@ -99,6 +100,8 @@ const Priser = () => {
                     <li><p>◊ Online forløb, pr. måned</p><p>799,-</p></li>
                     </ul>
                 </div>
+            </div>
+            
             </div>
 
             <Divider text="Vi gør opmærksom på at priserne er uden medicinen." list="Sygeforsikring Danmark giver tilskud på den medicinske behandling, 25-50% afhængig af om man er medlem af gruppe 1,2 eller 5." />

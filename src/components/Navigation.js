@@ -27,10 +27,44 @@ const Navigation = () => {
             }
         }
 
+@media only screen and (max-width: 700px) {
 
-@media only screen and (max-width: 500px) {
   li {
-    font-size: 0.5em;
+    font-size: 0.9em;
+  }
+
+  .logo {
+            font-size: 0.5em;
+            padding: 0 1em;
+        }
+}
+
+
+@media only screen and (max-width: 550px) {
+  li {
+    font-size: 0.7em;
+  }
+
+  .logo {
+            font-size: 0.4em;
+            padding: 0 1em;
+        }
+}
+
+@media only screen and (max-width: 420px) {
+  li {
+    font-size: 0.6em;
+  }
+
+  .logo {
+            font-size: 0.3em;
+            padding: 0 1em;
+        }
+}
+
+@media only screen and (max-width: 420px) {
+  li {
+    font-size: 0.3em;
   }
 
   .logo {

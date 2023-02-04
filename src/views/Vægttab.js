@@ -16,7 +16,7 @@ const Vægttab = () => {
         }
 
         & p {
-            padding: 1em 0;
+            padding-bottom: 1em;
         }
 
         & li {
@@ -24,7 +24,7 @@ const Vægttab = () => {
         }
 
         & .info {
-            padding: 0 10em;
+            
             display: flex;
             gap: 3em;
             margin-bottom: 5em;
@@ -81,8 +81,9 @@ const Vægttab = () => {
     return ( 
         <div css={style}>
 
-            <h1>Medicinsk forløb</h1>
+        <h1>Medicinsk forløb</h1>
 
+        <div className="maxwidth">
             <div className='info reverse'>
             
                 <div className='text'>
@@ -162,6 +163,8 @@ const Vægttab = () => {
                     <p>Bivirkningerne vil aftage efter en kort behandlingsperiode.</p>   
                     <p>Der er mulighed for, at de kommer kortvarigt tilbage ved øget dosering.</p>
                 </div>
+            </div>
+            
             </div>
 
             <div className='moreinfo'>

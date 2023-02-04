@@ -23,9 +23,18 @@ const Footer = () => {
             }
 
             & div {
-                padding-bottom: 0.5em;
+                padding-bottom: 0.2em;
             }
         }
+
+@media only screen and (max-width: 550px) {
+    display: flex;
+    flex-direction: column;
+    
+    & .socials {
+        text-align: start;
+    }
+}
     `
 
     return ( 

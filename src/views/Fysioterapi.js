@@ -7,7 +7,7 @@ const Fysioterapi = () => {
     `
 
     return ( 
-        <div css={style}>
+        <div css={style} className="maxwidth">
             
         </div>
      );

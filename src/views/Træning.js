@@ -25,7 +25,6 @@ const Træning = () => {
         }
 
         & .info {
-            padding: 0 10em;
             display: flex;
             gap: 3em;
             margin-bottom: 5em;
@@ -69,6 +68,8 @@ const Træning = () => {
     return ( 
         <div css={style}>
             <h1>Personlig træning</h1>
+
+            <div className="maxwidth">
 
             <div className='info'>
                 <div className='image'>
@@ -125,13 +126,26 @@ const Træning = () => {
             <div className='info reverse'>
                 <div className='text'>
                     <h4>Vægttabsforløb</h4>
-                    <p>Hos Let om Livet tilbyder vi træningsforløb med fokus på vægttab. Disse  forløb kan naturligvis kombineres med medicinsk forløb med Wegovy som supplement.</p>
-                    <p>Forløbet løber typisk over 12 uger af gangen, og tilrettelægges med udgangspunkt i hvor du er nu, og hvad dine mål og forudsætninger er.
-                        Vi tilbyder traditionel styrketræning og træning på de populære og skånsomme Reformer maskiner. Alt bliver tilpasset dig og dine præferencer.
-                        Ved overvægt er der tendens til dekonditionering og smerter i typsik lænd, hofter og knæ.
-                        Reformer maskinen er særligt brugervenlig ved disse tilfælde. 
+                    <p>
+                        Hos Let om Livet, tilbyder vi dette træningsforløb, til dig der har et ønske om vægttab. 
                     </p>
-                    <p>Man træner med fjedermodstand, og i stor grad uden om tyndgekræften.</p>
+                    <p>
+                        Forløbet her kan kombineres med vores medicinske forløb, for hurtigere resultater. 
+                    </p>
+                    <p>
+                        Medicinen bør ses, som et supplement til træningen og eventuelle livsstilsændringer. 
+                        Vi anbefaler, at man indstiller sig på et 12 ugers forløb, når målet er vægttab, da vaner og mindset, i vores erfaring, ofte har brug for finjusteringer, for at kunne vedligeholde vægttabet på den lange bane. 
+                    </p>
+                    <p>
+                        Forløbet kan naturligvis bookes en 4 uger ad gangen, uden binding, og man er også velkommen til at forlænge forløbet, ud over de anbefalede 12 uger.
+                    </p>
+                    <p>
+                        Vi tilrettelægger programmet med udgangspunkt i hvor du er nu, og hvad dine mål og forudsætninger er. Så sørger vi naturligvis for, at træningen er sjov, effektiv og lærerig.
+                        Som tidligere nævnt, er der mulighed for at træne på reformermaskiner hos os. 
+                    </p>
+                    <p>
+                        Hvilket vi i mange tilfælde vil anbefale, da der ved overvægt, er tendens til dekonditionering og smerter i typisk lænd, hofter og knæ. Disse maskiner er gode i sådanne tilfælde, da de er yderst hensigtsmæssige ved leddene især, blandt andet fordi, man træner med fjedermodstand, og i stor grad uden om tyngdekraften.
+                    </p>
                 </div>
 
                 <div className='image bigimage'>
@@ -182,6 +196,8 @@ const Træning = () => {
                 <div className='image bigimage'>
                     <img src="./images/sportywoman.jpg" alt="kvinde der træner i fitnesscenteret med sit onlineforløb" />
                 </div>
+            </div>
+            
             </div>
 
         </div>
