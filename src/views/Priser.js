@@ -97,7 +97,10 @@ const Priser = () => {
                         <li><p>◊ 3 træning om ugen</p><p>5.799,-</p></li>
                     </ul>
                     <ul>
-                    <li><p>◊ Online forløb, pr. måned</p><p>799,-</p></li>
+                    <li><p className='titler'>◊ Online forløb, pr. måned</p><p>799,-</p></li>
+                    <li><p>1 time Pilates Reformer træning</p></li>
+                    <li><p>◊ Single</p><p>500,-</p></li>
+                    <li><p>◊ Duet</p><p>750,-</p></li>
                     </ul>
                 </div>
             </div>
