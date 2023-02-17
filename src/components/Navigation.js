@@ -21,6 +21,7 @@ const Navigation = () => {
             & li {
                     list-style-type: none;
                     padding-right: 2em;
+                    font-family: 'Source Sans Pro', sans-serif;
                 } 
             & li:hover{
                 color: #95c11f;

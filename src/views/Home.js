@@ -7,6 +7,15 @@ const Home = () => {
     const style = css`
         text-align: center;
 
+            & h1 {
+                font-size: 3em;
+            }
+
+            & .uppercase {
+                font-style: italic;
+                text-transform: uppercase;
+            }
+
         & .divider {
             background-color: #95c11f;
             color: white;
@@ -16,6 +25,7 @@ const Home = () => {
 
         & .intro {
             padding: 3em;
+            margin-bottom: 1em;
             display: flex;
             gap: 3em;
             font-family: 'Source Sans Pro', sans-serif;
@@ -51,16 +61,18 @@ const Home = () => {
 
     return ( 
         <div css={style}>
-            <h1>Let om Livet - med speciale i vægttab, herunder medicinsk behandling</h1>
+            <h1>Let om Livet</h1>
+            <p className='uppercase'>- med speciale i vægttab, herunder medicinsk behandling</p>
+
             <section className='intro'>
 
                 <div className='image'>
-                    <img src="./images/family.jpg" alt="Menneskerne bag, let om livet" />
+                    <img src="./images/forsideplaceholder.jpg" alt="Menneskerne bag, let om livet" />
                 </div>
                 
                 <div className='introduktion'>
                     <h4>
-                        Har du en drøm om hvordan din krop skal se ud og føles, og er du klar til at investere i dig selv?
+                        Er du klar til at investere i dig selv?
                     </h4>
                     <p>
                         Let om Livet står klar til, at give dig redskaberne til varige resultater. 
