@@ -1,6 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
-import Navigation from "./Navigation";
+import Navbar from './Navbar';
+
 
 const Header = () => {
 
@@ -23,7 +24,7 @@ const Header = () => {
         <>
         <header css={style}>
             <div className='topimage'></div>
-            <Navigation />
+            <Navbar />
         </header>
         </>
         

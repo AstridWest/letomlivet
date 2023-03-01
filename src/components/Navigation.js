@@ -2,6 +2,9 @@
 import { css } from '@emotion/react';
 import { Link } from 'react-router-dom';
 
+import { IoClose } from 'react-icons/io5';
+import { IoMenu } from 'react-icons/io5';
+
 const Navigation = () => {
 
     const style = css`
@@ -89,6 +92,16 @@ const Navigation = () => {
                 <Link to="træning"><li>Personlig træning</li></Link>
                 <Link to="Priser"><li>Forløb og priser</li></Link>
             </ul>
+
+            <div id='mobile'>
+                <div className='mobile-menu'>
+                  <IoMenu />
+                </div>
+               <div className='mobile-close'>
+                  <IoClose />
+               </div>
+                
+            </div>
         </nav>
      );
 }

@@ -99,8 +99,8 @@ const Priser = () => {
                     <ul>
                     <li><p className='titler'>◊ Online forløb, pr. måned</p><p>799,-</p></li>
                     <li><p>1 time Pilates Reformer træning</p></li>
-                    <li><p>◊ Single</p><p>500,-</p></li>
-                    <li><p>◊ Duet</p><p>750,-</p></li>
+                    <li><p>◊ Single</p><p>450,-</p></li>
+                    <li><p>◊ Duet</p><p>600,-</p></li>
                     </ul>
                 </div>
             </div>
