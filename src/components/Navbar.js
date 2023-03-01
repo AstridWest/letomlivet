@@ -111,8 +111,11 @@ const [showNavbar, setShowNavbar] = useState(false)
     return ( 
         <nav css={style}>
             <div className="container">
+
                 <div className='logo'>
-                    <img src="./images/logo.png" alt="Let om livet logo" />
+                    <NavLink to="/">
+                        <img src="./images/logo.png" alt="Let om livet logo" />
+                    </NavLink>
                 </div>
 
                 <div className='menu-icon' onClick={handleShowNavbar}>
