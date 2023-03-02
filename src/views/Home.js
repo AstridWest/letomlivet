@@ -25,10 +25,12 @@ const Home = () => {
 
         & .intro {
             padding: 3em;
-            margin-bottom: 1em;
             display: flex;
             gap: 3em;
             font-family: 'Source Sans Pro', sans-serif;
+            background-image: url("../images/desktop.jpg");
+            background-size: cover;
+            background-position: top;
 
             & .image {
                 flex:1;
@@ -54,6 +56,9 @@ const Home = () => {
 @media only screen and (max-width: 700px) {
     .intro {
         flex-direction: column;
+        background-image: url("../images/mobile.jpg");
+        background-size: cover;
+        background-position: center;
     }
 }
         

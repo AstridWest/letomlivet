@@ -53,6 +53,10 @@ const Priser = () => {
     }
 
 @media only screen and (max-width: 750px) {
+    background-image: url("../images/mobile.jpg");
+    background-size: cover;
+    background-position: center;
+
     .info {
         flex-direction: column;
         padding: 0 3em;
@@ -99,8 +103,8 @@ const Priser = () => {
                     <ul>
                     <li><p className='titler'>◊ Online forløb, pr. måned</p><p>799,-</p></li>
                     <li><p>1 time Pilates Reformer træning</p></li>
-                    <li><p>◊ Single</p><p>450,-</p></li>
-                    <li><p>◊ Duet</p><p>600,-</p></li>
+                    <li><p>◊ Single</p><p>499,-</p></li>
+                    <li><p>◊ Duet</p><p>749,-</p></li>
                     </ul>
                 </div>
             </div>

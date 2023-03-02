@@ -4,6 +4,9 @@ import { css } from '@emotion/react';
 const Vægttab = () => {
     const style = css`
         border-top: 0.5em solid #95c11f;
+        background-image: url("../images/desktop.jpg");
+        background-size: cover;
+        background-position: top;
 
         & h1 {
             text-align: center;
@@ -64,7 +67,11 @@ const Vægttab = () => {
         }
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 700px) {
+    background-image: url("../images/mobile.jpg");
+    background-size: cover;
+    background-position: center;
+
     .info {
         flex-direction: column;
         padding: 0 3em;
