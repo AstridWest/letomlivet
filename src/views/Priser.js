@@ -27,17 +27,12 @@ const Priser = () => {
         }
 
         & .info {
-            display: flex;
-            gap: 3em;
-            margin-bottom: 1em;
-
-            & .image {
-                flex:1;
-            }
-
-            & .text {
-                flex:1;
-            }
+            max-width: 700px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            row-gap: 5em;
+            padding-bottom:3em;
         }
 
         & .titler{
@@ -59,14 +54,9 @@ const Priser = () => {
     background-size: cover;
     background-position: center;
 
-    .info {
-        flex-direction: column;
-        padding: 0 3em;
-        gap:0;
-    }
-
-    .test {
-        flex-direction: column-reverse;
+    & .info {
+        grid-template-columns: 1fr;
+        padding:0 2em;
     }
   
 }
@@ -77,39 +67,23 @@ const Priser = () => {
 
             <div className="maxwidth">
 
-            <div className='info'>
+                <div className='info'>
 
-                <Pricebox title="Lægekonsultation ved opstart af medicnisk behandling" price="999,-" />
-                <Pricebox title="Medicinsk pr. måned" price="249,-" />
-                
-                <div className='text'>
-                    <ul>
-                        <li><p>◊ Lægekonsultation ved opstart af medicnisk behandling</p><p>999,-</p></li>
-                        <li><p>◊ Medicinsk forløb, pr. måned</p> <p>249,-</p> </li>
-                    </ul>
-                    <ul>
-                        <p className='titler'>Medicinsk forløb med personligt træning ved fremmøde, pr. måned</p>
-                        <li><p>◊ 1 træning om ugen</p><p>2.699,-</p></li>
-                        <li><p>◊ 2 træninger om ugen (Anbefalet)</p><p>4.199,-</p></li>
-                        <li><p>◊ 3 træning om ugen</p><p>5.999,-</p></li>
-                    </ul>
-                    <ul>
-                        <li><p>◊ Medicinsk behandling med online forløb, pr. måned</p><p>999,-</p></li>
-                    </ul>
-                    <ul>
-                        <p className='titler'>Personligt træningsforløb med fremmøde, pr. måned</p>
-                        <li><p>◊ 1 træning om ugen</p><p>2.499,-</p></li>
-                        <li><p>◊ 2 træninger om ugen</p><p>3.999,-</p></li>
-                        <li><p>◊ 3 træning om ugen</p><p>5.799,-</p></li>
-                    </ul>
-                    <ul>
-                    <li><p className='titler'>◊ Online forløb, pr. måned</p><p>799,-</p></li>
-                    <li><p>1 time Pilates Reformer træning</p></li>
-                    <li><p>◊ Single</p><p>499,-</p></li>
-                    <li><p>◊ Duet</p><p>749,-</p></li>
-                    </ul>
+                    <Pricebox toptitle="Lægekonsultation ved opstart af medicnisk behandling" topprice="999,-" secondtitle="Medicin pr. måned" secondprice="249,-"  />
+                    
+                    <Pricebox toptitle="Online forløb" topprice="799,-" secondtitle="Med medicin" secondprice="999,-" />
+
+                    <Pricebox toptitle="Personligtræning 60min" topprice="549,-"/>
+
+                    <Pricebox toptitle="Klippekort 10klip" topprice="5.090,-" secondtitle="20klip" secondprice="9.995,-" thirdtitle="30klip" thirdprice="12.995,-" />
+                    
+                    <Pricebox toptitle="Personligt trænings forløb, 12 uger, 2 gange træning om ugen" topprice="11.995,-" secondtitle="12 uger, 3 gange træning om ugen" secondprice="15.295,-" />
+
+                    <Pricebox toptitle="Duet træning 60min" topprice="749,-" secondtitle="10klip" secondprice="6.995,-" thirdtitle="20klip" thirdprice="13.495,-" fourthtitle="30klip" fourthprice="17.995" />
+
+                    <Pricebox toptitle="Fysioterapi, priser følger overenskomsten" topprice="428,-" secondtitle="45min" secondprice="489,44,-" thirdtitle="30min" thirdprice="311,21,-" />
+
                 </div>
-            </div>
             
             </div>
 
