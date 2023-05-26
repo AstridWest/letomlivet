@@ -12,6 +12,7 @@ const Træning = () => {
         & h1 {
             text-align: center;
             padding: 1.5em 0;
+            font-family: 'Vesper Libre', sans-serif;
         }
 
         & h4 {
@@ -25,6 +26,10 @@ const Træning = () => {
 
         & li {
             list-style-type: none;
+        }
+
+        & img {
+            border-radius: 1em;
         }
 
         & .info {
@@ -115,71 +120,71 @@ const Træning = () => {
                     I alle vores forløb er kostvejledning, vane og adfærdscoaching omkring spisevaner inkluderet. 
                     Spiser du med følelser, mangler du noget i kosten eller lignende, så er vi klar til at hjælpe med det også. Vi arbejder ud fra simple og ukomplicerede kost og træningsprincipper, og du bliver naturligvis sat godt ind i dem.
                     </p>
-                    <p>
-                        Personlig træning foregår i Snekkersten, Nordsjælland.
-                    </p>
-                    <p>
-                        Træningsforholdene er private med udgangspunkt i 1:1 træning. Dog er der mulighed for duet træning. Det er op til dig, om du vil træne alene eller med en du kender, og der er i hvert fald lidt rabat at hente, oveni støtten fra din træningspartner.
-                    </p>
-
-                    <p>
-                        Husk at der er mulighed for traditionel styrketræning, og/eller Reformer Pilates.
-                        Dette kan du høre mere om ved samtalen.
-                    </p>
+                   
                 </div>
                 
             </div>
 
             <div className='info reverse'>
                 <div className='text'>
-                    <h4>Vægttabsforløb</h4>
+
                     <p>
-                        Hos Let om Livet, tilbyder vi dette træningsforløb, til dig der har et ønske om vægttab. 
+                        Personlig træning foregår i Snekkersten, Nordsjælland og træningsforholdene er private uden distraheringer, andre øjne eller afbrydelser.
                     </p>
                     <p>
-                        Forløbet her kan kombineres med vores medicinske forløb, for hurtigere resultater. 
+                        Har du en træningsmakker, kan i godt træne sammen her i duet træning, men du kommer ikke til at træne med nogen du ikke selv har inviteret med. 
                     </p>
                     <p>
-                        Medicinen bør ses, som et supplement til træningen og eventuelle livsstilsændringer. 
-                        Vi anbefaler, at man indstiller sig på et 12 ugers forløb, når målet er vægttab, da vaner og mindset, i vores erfaring, ofte har brug for finjusteringer, for at kunne vedligeholde vægttabet på den lange bane. 
+                        Der er mulighed for traditionel styrketræning og/eller Pilates reformer, som planlægges ud fra dine/jeres ønsker og behov.
                     </p>
+
                     <p>
-                        Forløbet kan naturligvis bookes en 4 uger ad gangen, uden binding, og man er også velkommen til at forlænge forløbet, ud over de anbefalede 12 uger.
+                        Vi tilrettelægger træningen med udgangspunkt i hvor du er nu, og hvad dine mål og forudsætninger er. Så sørger vi naturligvis for, at træningen er sjov, effektiv og lærerig.
                     </p>
+
                     <p>
-                        Vi tilrettelægger programmet med udgangspunkt i hvor du er nu, og hvad dine mål og forudsætninger er. Så sørger vi naturligvis for, at træningen er sjov, effektiv og lærerig.
-                        Som tidligere nævnt, er der mulighed for at træne på reformermaskiner hos os. 
+                        Træning hos Let om Livet tager udgangspunkt i at bygge dig op fra grunden, skabe gode bevægelsesmønstre og grundstyrke.
+                        Dette er bl.a for at minimere skaderisici og optimere træningsresultaterne.
                     </p>
+
                     <p>
-                        Hvilket vi i mange tilfælde vil anbefale, da der ved overvægt, er tendens til dekonditionering og smerter i typisk lænd, hofter og knæ. Disse maskiner er gode i sådanne tilfælde, da de er yderst hensigtsmæssige ved leddene især, blandt andet fordi, man træner med fjedermodstand, og i stor grad uden om tyngdekraften.
-                    </p>
+                        Hertil er der fri sparring ved hver træningspas, så vores viden bliver din viden. 
+                    </p>   
+
                 </div>
 
                 <div className='image bigimage'>
-                    <img src="./images/diet.jpg" alt="en kvinde der holder et æble" />
+                    <img src="./images/styrketræning.jpg" alt="kvinde der træner" />
                 </div>
             </div>
 
             <div className='info'>
                 <div className='image bigimage'>
-                    <img src="./images/styrketræning.jpg" alt="kvinde der træner" />
+                    <img src="./images/diet.jpg" alt="en kvinde der holder et æble" />
                 </div>
 
                 <div className='text'>
-                    <h4>Styrkeforløb</h4>
-                    <p>
-                    Er du interesseret i at opbygge muskelmasse, er dette forløbet til dig.
-                    Træning hos Let om Livet tager udgangspunkt i at bygge dig op fra grunden, skabe gode bevægelsesmønstre og grundstyrke. Hertil er der fri sparring ved hver træningspas, så vores viden bliver din viden. 
-                    </p>   
-                    <p>
-                        Desuden vil din træning blive bygget op, efter en videnskabelig tilgang, for at minimere skaderisici og optimere dine træningsresultater.
-                    </p>
-                    <p>
-                        Vi sørger naturligvis for at træningen bliver sjov og varrieret, samtidig med at den er tilpasset dine præferencer. 
-                    </p>
-                    <p>
-                        Har du først været igennem dette forløb, bliver fitnesscenteret og programlægning, langt mere overskueligt, da du ikke kun får erfaring, men også en masse grundviden om effektiv træning, og et bredt øvelses repetoire af høj kvalitet.     
-                    </p>
+        
+                   <p>
+                        Er vægttab en del af målet, kan personlig træning og et medicnisk forløb kombineres for bedre og hurtigere resultater. Træning har nogle meget positive virkninger på et vægttab. Blandt andet bibeholdelse af muskelmasse, med en større procent fedttab som følge heraf.
+                   </p>
+
+                   <p>
+                        Hertil vil en højere procent muskelmasse bidrage til et højere ligevægtsindtag - altså en højere daglig forbrænding.
+                   </p>
+
+                   <p>
+                        Medicinen bør ses som et supplement til træningen og eventuelle livsstilsændringer.
+                   </p>
+
+                   <p>
+                    Som tidligere nævnt indgår coaching og kostvejledning i træningssessionerne. Dette er vigtigt med henblik på ændring af kostvaner og adfærdsmønstre, som ofte spiller en meget stor rolle. 
+                   </p>
+
+                   <p>
+                    Det er helt individuelt hvilke udfordringer man har, og der er ikke to vægttabsforløb som er ens. Man må se det som en process, og vi er her for at guide dig igennem den.
+                   </p>
+
                 </div>
                 
             </div>

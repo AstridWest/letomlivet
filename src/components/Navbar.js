@@ -129,13 +129,13 @@ const [showNavbar, setShowNavbar] = useState(false)
                             <NavLink to="/">Forside</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/vægttab">Vægttabs medicin</NavLink>
+                            <NavLink to="/vægttab">Vægttabsmedicin</NavLink>
                         </li>
-                        {/*
+                        
                         <li>
-                            <NavLink to="/Fysioterapi">Contact</NavLink>
+                            <NavLink to="/Fysioterapi">Fysioterapi</NavLink>
                         </li>
-                        */}
+                        
                         <li>
                             <NavLink to="/træning">Personlig træning</NavLink>
                         </li>

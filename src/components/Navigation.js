@@ -87,8 +87,8 @@ const Navigation = () => {
             
             <ul className='navigation'>
                 <Link to="/"><li>Forside</li></Link>
-                <Link to="vægttab"><li>Vægttabs medicin</li></Link>
-                {/* <Link to="/Fysioterapi"><li>Fysioterapi</li></Link> */}
+                <Link to="vægttab"><li>Vægttabsmedicin</li></Link>
+                <Link to="/Fysioterapi"><li>Fysioterapi</li></Link>
                 <Link to="træning"><li>Personlig træning</li></Link>
                 <Link to="Priser"><li>Forløb og priser</li></Link>
             </ul>

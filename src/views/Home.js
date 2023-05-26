@@ -9,6 +9,7 @@ const Home = () => {
 
             & h1 {
                 font-size: 3em;
+                font-family: 'Vesper Libre', sans-serif;
             }
 
             & .uppercase {
@@ -34,6 +35,10 @@ const Home = () => {
 
             & .image {
                 flex:1;
+
+                & img {
+                    border-radius: 1em;
+                }
             }
 
             & .introduktion {
@@ -87,10 +92,11 @@ const Home = () => {
                     </p>
                     <p>Har du et ønske om forandring, hvad enten det er med henblik på vægttab, smertebehandling, forbedret form, øget styrke eller større muskler. Så er Let om Livet sundhedsklinikken for dig.</p>
                     <p>Vi har en ambition om at hjælpe dig, til at få et større fysisk og mentalt overskud i hverdagen, og blive den bedste version af dig, for både dig selv, og dine nærmeste.</p>
-                    <p>Til dette formål tilbyder klinikken</p>
+                    <p>Til dette formål tilbyder vi</p>
                     <p>⦁ Lægekonsultation - herunder vægttabsmedicin</p>
                     <p>⦁ Fysioterapi</p>
                     <p>⦁ Personlig træning, styrketræning og reformer pilates </p>
+                    <p>⦁ Online forløb</p>
                     <p className='italic'>- Hertil coaching og kostvejledning inkluderet, både online og ved fremmøde</p>
                 </div>
                 

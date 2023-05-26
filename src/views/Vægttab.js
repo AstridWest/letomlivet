@@ -11,6 +11,7 @@ const Vægttab = () => {
         & h1 {
             text-align: center;
             padding: 1.5em 0;
+            font-family: 'Vesper Libre', sans-serif;
         }
 
         & h4 {
@@ -24,6 +25,10 @@ const Vægttab = () => {
 
         & li {
             padding-bottom: 0.5em;
+        }
+
+        & img {
+            border-radius: 1em;
         }
 
         & .info {
@@ -64,6 +69,7 @@ const Vægttab = () => {
             padding: 1em 3.5em;
             background-color: #95c11f;
             color: white;
+            margin-bottom:5em;
         }
 
 
@@ -91,29 +97,6 @@ const Vægttab = () => {
         <h1>Medicinsk forløb</h1>
 
         <div className="maxwidth">
-            <div className='info reverse'>
-            
-                <div className='text'>
-                    <p>
-                        Jeg er en læge, som i mange år har beskæftiget mig med behandling, herunder den medicinske behandling, af personer med overvægt, livstilsbetingede helbredsudfordringer og sygdomme samt Diabetes 2. Dette i forbindelse med mange års tjeneste i lægepraksis samt med patienter i min private konsultation. 
-                    </p>
-                    <p>
-                        Hertil har jeg mange års erfaring som underviser indenfor området. 
-                        Får du hjælp til at komme ud af din overvægt, så vil du få og opleve et markant bedret liv. 
-                    </p>
-                    <p>
-                        Du skal være meget velkommen.
-                    </p>
-                    <p>
-                        - Læge Per Warrer
-                    </p>
-
-                </div>
-                
-                <div className='image test'>
-                    <img src="./images/lægen.jpg" alt="lægen" />
-                </div>
-            </div>
 
             <div className='info'>
                 <div className='image'>
@@ -151,6 +134,11 @@ const Vægttab = () => {
                 </div>
 
             </div>
+
+            <div className='moreinfo'>
+                <p>Kliniske studier viser at de patienter der tager wegovy, i gennemsnit taber sig: ca 10% ved 20 uger, ca 16 % ved 12 måneder ca 18% ved 18 måneder. En tredjedel af patienterne taber sig 20% eller mere. Vi gør opmærksom på, at dette er gennemsnitlig data, og at vægttabene er individuelle og meget varrierene.</p>
+                <a href="https://www.novomedlink.com/obesity/products/treatments/wegovy/efficacy-safety/clinical-trial-1-results.html" target="_blank" rel="noreferrer noopener">LÆS MERE HER</a>
+            </div>
             
             <div className='info'>
                 <div className='image'>
@@ -171,12 +159,28 @@ const Vægttab = () => {
                     <p>Der er mulighed for, at de kommer kortvarigt tilbage ved øget dosering.</p>
                 </div>
             </div>
-            
-            </div>
 
-            <div className='moreinfo'>
-                <p>Kliniske studier viser at de patienter der tager wegovy, i gennemsnit taber sig: ca 10% ved 20 uger, ca 16 % ved 12 måneder ca 18% ved 18 måneder. En tredjedel af patienterne taber sig 20% eller mere. Vi gør opmærksom på, at dette er gennemsnitlig data, og at vægttabene er individuelle og meget varrierene.</p>
-                <a href="https://www.novomedlink.com/obesity/products/treatments/wegovy/efficacy-safety/clinical-trial-1-results.html" target="_blank" rel="noreferrer noopener">LÆS MERE HER</a>
+            <div className='info reverse'>
+            
+                <div className='text'>
+                    <p>
+                        Jeg er en læge, som i mange år har beskæftiget mig med behandling, herunder den medicinske behandling, af personer med overvægt, livstilsbetingede helbredsudfordringer og sygdomme samt Diabetes 2. Dette i forbindelse med mange års tjeneste i lægepraksis samt med patienter i min private konsultation. 
+                    </p>
+                    <p>
+                        Hertil har jeg mange års erfaring som underviser indenfor området. 
+                        Får du hjælp til at komme ud af din overvægt, så vil du få og opleve et markant bedret liv. 
+                    </p>
+                    <p>
+                        - Læge Per Warrer
+                    </p>
+
+                </div>
+                
+                <div className='image test'>
+                    <img src="./images/lægen.jpg" alt="lægen" />
+                </div>
+            </div>
+            
             </div>
             
         </div>

@@ -3,6 +3,7 @@ import { css } from '@emotion/react';
 import { ContactUs } from '../components/ContactUs';
 
 import Divider from "../components/Divider";
+import Pricebox from '../components/Pricebox';
 
 const Priser = () => {
     const style = css`
@@ -11,6 +12,7 @@ const Priser = () => {
         & h1 {
             text-align: center;
             padding: 1.5em 0;
+            font-family: 'Vesper Libre', sans-serif;
         }
 
         & ul {
@@ -76,9 +78,9 @@ const Priser = () => {
             <div className="maxwidth">
 
             <div className='info'>
-                <div className='image'>
-                    <img src="./images/payment.jpg" alt="en gruppe der går sammen" />
-                </div>
+
+                <Pricebox title="Lægekonsultation ved opstart af medicnisk behandling" price="999,-" />
+                <Pricebox title="Medicinsk pr. måned" price="249,-" />
                 
                 <div className='text'>
                     <ul>
