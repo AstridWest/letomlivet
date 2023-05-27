@@ -24,7 +24,8 @@ const Fysioterapi = () => {
     background-image: url("../images/mobile.jpg");
     background-size: cover;
     background-position: center;
-    }
+    padding: 0 2em 1em;
+}
         
 `
 

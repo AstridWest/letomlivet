@@ -21,7 +21,7 @@ const Træning = () => {
         }
 
         & p {
-            padding-bottom: 0.5em;
+            padding-bottom: 0.8em;
         }
 
         & li {

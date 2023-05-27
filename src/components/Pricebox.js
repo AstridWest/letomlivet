@@ -4,11 +4,19 @@ import { css } from '@emotion/react';
 
 const Pricebox = ({toptitle, topprice, secondtitle, secondprice, thirdtitle, thirdprice, fourthprice, fourthtitle}) => {
     const style = css`
-        border: solid 1px black;
+        background-color: #F6F9EE;
+        border-radius: 1em;
         width: 300px;
         margin: 0 auto;
         text-align: center;
-        padding:2em;
+        padding:3em 2em 2em;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 4px 5px 2px #F0F0F0;
+
+        & h4 {
+            padding-bottom: 1em;
+        }
     `
 
     return ( 

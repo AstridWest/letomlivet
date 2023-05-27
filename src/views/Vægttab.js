@@ -24,7 +24,7 @@ const Vægttab = () => {
         }
 
         & li {
-            padding-bottom: 0.5em;
+            padding-bottom: 0.9em;
         }
 
         & img {

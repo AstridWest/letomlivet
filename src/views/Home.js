@@ -77,7 +77,7 @@ const Home = () => {
             <section className='intro'>
 
                 <div className='image'>
-                    <img src="./images/forsideplaceholder.jpg" alt="Menneskerne bag, let om livet" />
+                    <img src="./images/forside.jpg" alt="Menneskerne bag, let om livet" />
                 </div>
                 
                 <div className='introduktion'>
