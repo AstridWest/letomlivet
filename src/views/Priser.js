@@ -72,9 +72,9 @@ const Priser = () => {
 
                 <div className='info'>
 
-                    <Pricebox toptitle="Lægekonsultation ved opstart af medicnisk behandling" topprice="999,-" secondtitle="Receptfornyelse pr. måned" secondprice="249,-"  />
+                    <Pricebox toptitle="Lægekonsultation ved opstart af medicnisk behandling" topprice="999,-" secondtitle="Medicinsk forløb pr. måned" secondprice="249,-"  />
                     
-                    <Pricebox toptitle="Online forløb" topprice="799,-" secondtitle="Med receptfornyelse" secondprice="999,-" />
+                    <Pricebox toptitle="Online forløb" topprice="799,-" secondtitle="Med medicinsk forløb" secondprice="999,-" />
 
                     <Pricebox toptitle="Personligtræning 60min" topprice="549,-"/>
 
