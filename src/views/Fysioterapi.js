@@ -36,10 +36,10 @@ const Fysioterapi = () => {
 
             <div className="maxwidth">
                 <p>
-                    Vores fysioterapeut, Stasa er uddannet i 2014, med speciale i genoptræning. 
+                    Vores fysioterapeut, Stasa, er uddannet i 2014, med speciale i genoptræning. 
                 </p>
                 <p>
-                    For ham er det vigtigt, at han i samarbejde med patienten, finder årsagen til smerterne og ikke kun fokusere på symptomerne.
+                    For ham er det vigtigt, at han i samarbejde med patienten, finder årsagen til smerterne og ikke kun fokuserer på symptomerne.
                 </p>
                 
                 <p>

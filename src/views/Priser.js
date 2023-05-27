@@ -78,13 +78,13 @@ const Priser = () => {
 
                     <Pricebox toptitle="Personligtræning 60min" topprice="549,-"/>
 
-                    <Pricebox toptitle="Klippekort 10klip" topprice="5.090,-" secondtitle="20klip" secondprice="9.995,-" thirdtitle="30klip" thirdprice="12.995,-" />
+                    <Pricebox toptitle="Klippekort 10klip" topprice="5.090,-" secondtitle="20klip" secondprice="9.999,-" thirdtitle="30klip" thirdprice="12.999,-" />
                     
-                    <Pricebox toptitle="Personligt trænings forløb, 12 uger, 2 gange træning om ugen" topprice="11.995,-" secondtitle="12 uger, 3 gange træning om ugen" secondprice="15.295,-" />
+                    <Pricebox toptitle="Personligt trænings forløb, 12 uger, 2 gange træning om ugen" topprice="11.999,-" secondtitle="12 uger, 3 gange træning om ugen" secondprice="15.299,-" />
 
-                    <Pricebox toptitle="Duet træning 60min" topprice="749,-" secondtitle="10klip" secondprice="6.995,-" thirdtitle="20klip" thirdprice="13.495,-" fourthtitle="30klip" fourthprice="17.995" />
+                    <Pricebox toptitle="Duet træning 60min" topprice="749,-" secondtitle="10klip" secondprice="6.999,-" thirdtitle="20klip" thirdprice="13.499,-" fourthtitle="30klip" fourthprice="17.999" />
 
-                    <Pricebox toptitle="Fysioterapi, priser følger overenskomsten" topprice="428,-" secondtitle="45min" secondprice="489,44,-" thirdtitle="30min" thirdprice="311,21,-" />
+                    <Pricebox toptitle="Fysioterapi, priser følger overenskomsten:" secondtitle="45min" secondprice="489,44,-" thirdtitle="30min" thirdprice="311,21,-" />
 
                 </div>
             
