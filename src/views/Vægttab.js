@@ -121,10 +121,10 @@ const Vægttab = () => {
             
             <div className='info reverse'>
                 <div className='text'>
-                    <h4>Wegovy er et kunstigt fremstillet tarmhormon, som kan udløse vægttab ved følgende mekanismer i kroppen:</h4>
+                    <h4>Wegovy er et kunstigt fremstillet tarmhormon, der udløser et vægttab ved følgende mekanismer i kroppen:</h4>
                     <ul>
                         <li>Hæmning af appetit i hjernen</li>
-                        <li>Forsinket tømning af mavesækken, så man oplever mæthed hurtigt ved fødeindtag.</li>
+                        <li>Forsinket tømning af mavesækken, så man oplever mæthed ved fødeindtag.</li>
                         <li>Øget insulineffekt, således at energien bliver ført til musklerne. Her bliver energien brugt fremfor lagret på kroppen som fedt.</li>
                     </ul>  
                 </div>
@@ -136,7 +136,7 @@ const Vægttab = () => {
             </div>
 
             <div className='moreinfo'>
-                <p>Kliniske studier viser at de patienter der tager wegovy, i gennemsnit taber sig: ca 10% ved 20 uger, ca 16 % ved 12 måneder ca 18% ved 18 måneder. En tredjedel af patienterne taber sig 20% eller mere. Vi gør opmærksom på, at dette er gennemsnitlig data, og at vægttabene er individuelle og meget varrierene.</p>
+                <p>Kliniske studier viser at de patienter der tager wegovy, i gennemsnit taber sig: ca 10% ved 20 uger, ca 16 % ved 12 måneder ca 18% ved 18 måneder. En tredjedel af patienterne taber sig 20% eller mere. Vi gør opmærksom på, at dette er gennemsnitlig data, og at vægttabene er individuelle og meget varierende.</p>
                 <a href="https://www.novomedlink.com/obesity/products/treatments/wegovy/efficacy-safety/clinical-trial-1-results.html" target="_blank" rel="noreferrer noopener">LÆS MERE HER</a>
             </div>
             

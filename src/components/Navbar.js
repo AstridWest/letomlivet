@@ -139,6 +139,11 @@ const [showNavbar, setShowNavbar] = useState(false)
                         <li>
                             <NavLink to="/træning">Personlig træning</NavLink>
                         </li>
+
+                        <li>
+                            <NavLink to="/pilates">Pilates reformer</NavLink>
+                        </li>
+
                         <li>
                             <NavLink to="/Priser">Forløb og priser</NavLink>
                         </li>

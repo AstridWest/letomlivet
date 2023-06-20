@@ -105,7 +105,7 @@ const Træning = () => {
                         <p>Og hen imod</p>
                         <ul>
                             <li>⦁ Større mentalt og fysisk overskud</li>
-                            <li>⦁ En stærkere, mere udholdene og smertefri krop</li>
+                            <li>⦁ En stærkere, mere udholdende og smertefri krop</li>
                             <li>⦁ Forbedret helbred og velvære</li>
                             <li>⦁ Større tilfredshed og bedre samvittighed</li>
                         </ul>  
@@ -113,12 +113,12 @@ const Træning = () => {
                     
 
                     <p>
-                        Et træningsforløb indledes med en samtale, hvor vi får defineret hvilke mål du har og hvordan din nuværende fysiske form er.
+                        Et træningsforløb indledes med en samtale, hvor vi får defineret, hvilke mål du har og hvordan din nuværende fysiske form er.
                     </p>
 
                     <p>
                     I alle vores forløb er kostvejledning, vane og adfærdscoaching omkring spisevaner inkluderet. 
-                    Spiser du med følelser, mangler du noget i kosten eller lignende, så er vi klar til at hjælpe med det også. Vi arbejder ud fra simple og ukomplicerede kost og træningsprincipper, og du bliver naturligvis sat godt ind i dem.
+                    Spiser du med følelser, mangler du noget i kosten eller lignende, så er vi også klar til at hjælpe med det. Vi arbejder ud fra simple og ukomplicerede kost og træningsprincipper, og du bliver naturligvis sat godt ind i dem.
                     </p>
                    
                 </div>
