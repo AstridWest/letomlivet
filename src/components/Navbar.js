@@ -75,11 +75,11 @@ const Navbar = () => {
         position: absolute;
         right: 0;
         top: 9em;
-        background-color: rgba(149, 193, 31, 0.9);
         width: 0px;
-        height: calc(100vh - 60px);
         transition: all 0.3s ease-in;
         overflow: hidden;
+        background-color: rgba(149, 193, 31, 0.75);
+        padding-bottom: 2em;
     }
 
     & .nav-elements.active {
@@ -97,6 +97,7 @@ const Navbar = () => {
     }
 
     & .nav-elements ul a.active {
+        border-bottom: 1px solid black;
         color: white;
     }
 }
@@ -107,13 +108,16 @@ const [showNavbar, setShowNavbar] = useState(false)
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar)
   }
+  const closeMenu = () => { 
+    setShowNavbar(false);  
+};
 
     return ( 
         <nav css={style}>
             <div className="container">
 
                 <div className='logo'>
-                    <NavLink to="/">
+                    <NavLink to="/" onClick={closeMenu}>
                         <img src="./images/logo.png" alt="Let om livet logo" />
                     </NavLink>
                 </div>
@@ -126,26 +130,26 @@ const [showNavbar, setShowNavbar] = useState(false)
 
                 <ul className='navigation'>
                         <li>
-                            <NavLink to="/">Forside</NavLink>
+                            <NavLink to="/" onClick={closeMenu}>Forside</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/vægttab">Vægttabsmedicin</NavLink>
-                        </li>
-                        
-                        <li>
-                            <NavLink to="/Fysioterapi">Fysioterapi</NavLink>
+                            <NavLink to="/vægttab" onClick={closeMenu}>Vægttabsmedicin</NavLink>
                         </li>
                         
                         <li>
-                            <NavLink to="/træning">Personlig træning</NavLink>
+                            <NavLink to="/fysioterapi" onClick={closeMenu}>Fysioterapi</NavLink>
+                        </li>
+                        
+                        <li>
+                            <NavLink to="/træning" onClick={closeMenu}>Personlig træning</NavLink>
                         </li>
 
                         <li>
-                            <NavLink to="/pilates">Pilates reformer</NavLink>
+                            <NavLink to="/pilatesreformer" onClick={closeMenu}>Pilates reformer</NavLink>
                         </li>
 
                         <li>
-                            <NavLink to="/Priser">Forløb og priser</NavLink>
+                            <NavLink to="/priser" onClick={closeMenu}>Forløb og priser</NavLink>
                         </li>
                     </ul> 
                 </div>

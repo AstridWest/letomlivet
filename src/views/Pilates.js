@@ -38,15 +38,6 @@ const Pilates = () => {
         & .text {
             flex:3;
         }
-
-        & .cursive {
-            font-size: small;
-            font-style: italic;
-        }
-
-        & .listp {
-            padding-bottom:0.2em;
-        }
     }
 
 @media only screen and (max-width: 700px) {
@@ -76,42 +67,48 @@ padding: 0 2em 1em;
 
            <div className='text'>
                 <p>
-                    Pilates reformer bliver mere og mere populært, og med god grund. Det er en effektiv træningsmetode, hvor man får trænet kroppens muskler grundigt igennem, på en yderst tidseffektiv måde.
+                    Pilates reformer er en unik og gennemført måde at træne hele kroppen på, både i dybden og i stor grad også i funktionen. Træningen styrker og smidiggør kroppen, samtidig med at eventuelle ubalancer og uhensigtsmæssige bevægelsesmønstre kommer til syne, så vi får mulighed for at rette op på dem.
                 </p>
                 <p>
-                    Flere fysioterapeuter er begyndt at anvende denne træningsform som et led i genoptræning af borgere, fordi det er så effektivt og samtidig skånsomt for ledene.
-                </p>
-                <p>
-                    Det er dog godt for alle og du behøver ikke have skader og skavanker for at Pilates reformer vil være godt for dig. Mange af kroppens muskler kan let blive overset ved traditionel styrketræning, men de slipper altså ikke så let ved denne træningsform.
-                </p>
-                <p>
-                    Vi tager udgankspunkt i traditionel Pilates reformer og undervisningen byder på følgende:
+                    Intensitet og modstand indstilles individuelt, så vi kan tilpasse træningen specifikt til dig - hvad enten du er ny, trænet eller elite. 
                 </p>
 
+                <p>
+                    Ved jævnlig træning kan du se frem til:
+                </p>
                 <ul>
                     <li>
-                        ⦁ Full body workout - med fokus på de stabiliserende og dybe muskler.
+                        ⦁ Øget styrke i hele kroppen, særligt mave og ryg
                     </li>
                     <li>
-                        ⦁ Hård, men hensigtsmæssig træning - undgå skader, samtidig med at du bliver stærkere.
+                        ⦁ Større udholdenhed
                     </li>
                     <li>
-                        <p className='listp'>
-                            ⦁ Fokus på bevægemønstre - forbedrer din holdning og din generelle måde at bruge din krop på.
-                        </p>
-                        <p className='cursive'>
-                            - Hvilket kan forebygge, og i nogle tilfælde behandle skader. Spændingshovedpine, impingement i skulderen og lændesmerter eksempelvist.
-                        </p>
+                        ⦁ Forbedret mobilitet og kropsbevidsthed
                     </li>
                     <li>
-                        <p className='listp'>
-                            ⦁ Helt private omgivelser og hvor du er 100 % i fokus, og kan have træne helt uforstyrret. 
-                        </p>
-                        <p className='cursive'>
-                            - Foretrækker du at træne sammen med nogen, har du mulighed for at dele rampelyset med en træningspartner du selv medbringer.
-                        </p>
+                        ⦁ Øget smidighed
+                    </li>
+                    <li>
+                        ⦁ Bedre kondition
+                    </li>
+                    <li>
+                        ⦁ Struktur på din træning
                     </li>
                 </ul>
+
+                <p>
+                    Udover at være effektiv og gavnlig på denne lange række punkter, er reformer maskinen yderst venlig mod muskler og led, dette hvorfor flere fysioterapeuter benytter dem til træning og genoptræning.
+                </p>
+                <p>
+                    Så har du lidt skavanker og skader, kan du trygt prøve kræfter med disse maskiner, bare husk at informer træneren, så vi kan tage hensyn til det.
+                </p>
+                <p>
+                    Vi anbefaler forholdsvist tætsiddende tøj, for at have frie bevægelsesmuligheder. Skridsikre sokker er et must-have, men du kan godt have almindelige sokker på første gang. Hertil frabeder vi lynlåse på forside og bagsider af bukser, da dette kan skade maskinernes polstring.
+                </p>
+                <p>
+                    Til sidst vil vi sige at alle kan deltage, uanset niveau. Så book din intro time nu, som vi iøvrigt giver 50% rabat på, og tag eventuelt en makker med.
+                </p>
            </div>
         </div>
        

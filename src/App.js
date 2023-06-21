@@ -19,8 +19,8 @@ function App() {
           <Route path="fysioterapi" element={ <Fysioterapi /> } />
           <Route path="træning" element={ <Træning /> } />
           <Route path="vægttab" element={ <Vægttab /> } />
-          <Route path='Priser' element={ <Priser /> } />
-          <Route path='pilates' element={ <Pilates /> } />
+          <Route path='priser' element={ <Priser /> } />
+          <Route path='pilatesreformer' element={ <Pilates /> } />
 
           <Route path="*" element={ <Ikkefundet /> } />
         </Routes>
