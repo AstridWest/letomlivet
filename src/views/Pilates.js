@@ -26,6 +26,10 @@ const Pilates = () => {
         padding-bottom: 0.9em;
     }
 
+    & img {
+        border-radius: 1em;
+    }
+
     & .flex {
         display: flex;
         gap: 3em;
