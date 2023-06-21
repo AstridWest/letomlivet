@@ -60,6 +60,7 @@ const Navbar = () => {
 
 @media (max-width: 600px) {
     height: 9em;
+    font-size: 1.2em;
 
     .menu-icon {
         display: block;

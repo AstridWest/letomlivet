@@ -13,6 +13,7 @@ const Pricebox = ({toptitle, topprice, secondtitle, secondprice, thirdtitle, thi
         display: flex;
         flex-direction: column;
         box-shadow: 5px 4px 5px 2px #F0F0F0;
+        font-size: 1.2em;
 
         & h4 {
             padding-bottom: 1em;
