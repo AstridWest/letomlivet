@@ -71,7 +71,7 @@ export const ContactUs = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-            'service_5dl3n0r', 
+            'service_wpoxg8f', 
             'template_2f8huwr', 
             form.current, 
             'eNphIfYkkzqgEpngE'
